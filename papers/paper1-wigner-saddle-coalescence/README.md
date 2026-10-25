@@ -12,32 +12,32 @@
 
 This repository contains the complete AMS-LaTeX manuscript, compiled academic PDF, high-resolution figures, and 60-decimal arbitrary-precision verification suite for Paper 1 of our study on the analytical and phase-space structure of Riemann's Jacobi-theta kernel $\Phi(u)$.
 
-We prove that the inner correlation integral $I(y,t)$ governing the transverse Wronskian $W(d,t) = \frac{1}{2}\partial_d\lvert\Xi(t-\mathrm{i}d)\rvert^2$ of Riemann's completed $\Xi$-function is proportional to the quantum-mechanical Wigner phase-space distribution $\mathcal{W}_\Phi(y, 2t)$ of the kernel $\Phi(u)$, and that its $99.77\%$ real-axis Fourier cancellation at $t = \gamma_1$ is eliminated by shifting the integration contour into the holomorphic strip $\lvert\mathrm{Im}(x)\rvert < \pi/4$.
+We prove that the inner correlation integral $I(y,t)$ governing the transverse Wronskian $W(d,t) = \frac{1}{2}\partial_d\lvert\Xi(t-\mathrm{i}d)\rvert^2$ of Riemann's completed $\Xi$-function is proportional to the quantum-mechanical Wigner phase-space distribution $\mathcal{W} _ \Phi(y, 2t)$ of the kernel $\Phi(u)$, and that its 99.77% real-axis Fourier cancellation at $t = \gamma_1$ is eliminated by shifting the integration contour into the holomorphic strip $\lvert\mathrm{Im}(x)\rvert < \pi/4$.
 
 ### Main Analytical Results (Theorem 1.1 & Theorem 4.2)
 
 1. **Wigner–Hudson Phase-Space Representation and Zero-Marginal Identity:**  
    In mirror coordinates $x = u + v$ and $y = u - v$ (with longitudinal frequency $\omega = 2t$), the transverse Wronskian and its even parity-reduced counterpart $\widetilde{W}(d,t) = W(d,t)/d$ take the exact form
 
-   $$W(d,t) = 8\int_0^\infty y\sinh(2d y)\,I(y,2t)\,\mathrm{d}y, \qquad \widetilde{W}(d,t) = 16\int_0^\infty y^2\,\frac{\sinh(2d y)}{2d y}\,I(y,2t)\,\mathrm{d}y,$$
+$$W(d,t) = 8\int_0^\infty y\sinh(2d y) I(y,2t) \mathrm{d}y, \qquad \widetilde{W}(d,t) = 16\int_0^\infty y^2 \frac{\sinh(2d y)}{2d y} I(y,2t) \mathrm{d}y,$$
 
    where the inner correlation integral is given by
 
-   $$I(y,\omega) = \int_{-\infty}^\infty \Phi\left(\frac{x+y}{2}\right)\Phi\left(\frac{x-y}{2}\right)\cos(\omega x)\,\mathrm{d}x = 2\pi\,\mathcal{W}_\Phi(y, 2\omega).$$
+$$I(y,\omega) = \int _ {-\infty}^\infty \Phi\left(\frac{x+y}{2}\right)\Phi\left(\frac{x-y}{2}\right)\cos(\omega x) \mathrm{d}x = 2\pi \mathcal{W} _ \Phi(y, 2\omega).$$
 
-   At every real zero $\gamma_k$ of $\Xi$ ($\omega_k = 2\gamma_k$), the marginal integral vanishes identically ($\int_{-\infty}^\infty I(y,2\gamma_k)\,\mathrm{d}y = \frac{1}{8}\lvert\Xi(\gamma_k)\rvert^2 = 0$), and Hudson's theorem (1974) implies that $I(y,\omega)$ must change sign in the $(y,\omega)$-plane because $\Phi(u)$ is non-Gaussian.
+   At every real zero $\gamma_k$ of $\Xi$ ($\omega_k = 2\gamma_k$), the marginal integral vanishes identically ($\int _ {-\infty}^\infty I(y,2\gamma_k) \mathrm{d}y = \frac{1}{8}\lvert\Xi(\gamma_k)\rvert^2 = 0$), and Hudson's theorem (1974) implies that $I(y,\omega)$ must change sign in the $(y,\omega)$-plane because $\Phi(u)$ is non-Gaussian.
 
 2. **Holomorphic Strip $\lvert\mathrm{Im}(x)\rvert < \pi/4$, Vertical Wall Decay, and Hermitian Symmetry:**  
    Using the Jacobi differential identity $\Phi(u) = \frac{1}{16}(\partial_u^2 - 1)[\mathrm{e}^u\theta(\mathrm{e}^{4u})]$ and the modular transformation $\theta(\mathrm{e}^{-4u}) = \mathrm{e}^{2u}\theta(\mathrm{e}^{4u})$, we prove $\Phi(-u) = \Phi(u)$ holomorphically inside $\lvert\mathrm{Im}(u)\rvert < \pi/8$ without non-holomorphic absolute values. On the vertical Cauchy walls $\xi = \pm L$, the convolution kernel $G_y(x) = \Phi(\frac{x+y}{2})\Phi(\frac{x-y}{2})$ decays double-exponentially as $\mathcal{O}(\mathrm{e}^{9L}\exp(-2\pi\cosh(2y)\mathrm{e}^{2L}\cos(2\eta)))$ for all $\lvert\eta\rvert < \pi/4$, whereas $\lvert\eta\rvert = \pi/4$ is a natural boundary where $\cos(2\eta) = 0$. Along any horizontal contour $x = \xi + \mathrm{i}\eta$, $G_y$ satisfies the exact Hermitian reflection symmetry
 
-   $$G_y(-\xi + \mathrm{i}\eta) = \overline{G_y(\xi + \mathrm{i}\eta)}, \qquad G_y(\mathrm{i}\eta) = \left\lvert\Phi\left(\frac{y+\mathrm{i}\eta}{2}\right)\right\rvert^2 \ge 0.$$
+$$G_y(-\xi + \mathrm{i}\eta) = \overline{G_y(\xi + \mathrm{i}\eta)}, \qquad G_y(\mathrm{i}\eta) = \left\lvert\Phi\left(\frac{y+\mathrm{i}\eta}{2}\right)\right\rvert^2 \ge 0.$$
 
 3. **Pitchfork Saddle-Point Coalescence and Elimination of Real-Axis Cancellation:**  
-   The complex stationary-phase points $x_*^\pm(y,\omega) = \pm\xi_*(y,\omega) + \mathrm{i}\eta_*(y,\omega)$ solving $\partial_x\ln G_y(x) + \mathrm{i}\omega = 0$ undergo a pitchfork bifurcation at $y_c(\omega)$ (at $\omega_1 = 2\gamma_1$: $y_c(2\gamma_1) \approx 0.4320205303$, $\eta_*(y_c,2\gamma_1) \approx 0.6027150239$). Near $(y_c, \eta_c)$, the holomorphic Taylor expansion yields the quadratic coalescence law
+   The complex stationary-phase points $x _ {\star}^\pm(y,\omega) = \pm\xi _ {\star}(y,\omega) + \mathrm{i}\eta _ {\star}(y,\omega)$ solving $\partial_x\ln G_y(x) + \mathrm{i}\omega = 0$ undergo a pitchfork bifurcation at $y_c(\omega)$ (at $\omega_1 = 2\gamma_1$: $y_c(2\gamma_1) \approx 0.4320205303$, $\eta _ {\star}(y_c,2\gamma_1) \approx 0.6027150239$). Near $(y_c, \eta_c)$, the holomorphic Taylor expansion yields the quadratic coalescence law
 
-   $$(\Delta z)^2 = \bigl(\xi_* + \mathrm{i}(\eta_* - \eta_c)\bigr)^2 = K^2(y_c - y) + \mathcal{O}\bigl(\lvert y - y_c\rvert^{3/2}\bigr), \qquad K = \sqrt{\frac{2\,\partial_y L_{y_c}'(\eta_c)}{-L_{y_c}'''(\eta_c)}} \approx 0.2991933645.$$
+$$(\Delta z)^2 = \bigl(\xi _ {\star} + \mathrm{i}(\eta _ {\star} - \eta_c)\bigr)^2 = K^2(y_c - y) + \mathcal{O}\bigl(\lvert y - y_c\rvert^{3/2}\bigr), \qquad K = \sqrt{\frac{2 \partial_y L _ {y_c}'(\eta_c)}{-L _ {y_c}'''(\eta_c)}} \approx 0.2991933645.$$
 
-   For $\lvert y\rvert \ge y_c(\omega)$, the conjugate saddle pair coalesces onto the imaginary axis $\xi_* = 0$ with strictly negative horizontal Hessian $\partial_\xi^2\ln G_y(\mathrm{i}\eta_*) < 0$. Shifting the contour from $\eta = 0$ to $\eta \in (0,\pi/4)$ raises the positive-to-negative lobe ratio $I_+ / \lvert I_-\rvert$ at $y = 0.40$ from $1.0023$ ($99.77\%$ cancellation) to $2547.95$ at $\omega = 2\gamma_1, \eta = 0.50$, and to $1.547 \times 10^{11}$ in the single-saddle coalesced regime ($\omega = \gamma_1, \eta = 0.18$).
+   For $\lvert y\rvert \ge y_c(\omega)$, the conjugate saddle pair coalesces onto the imaginary axis $\xi _ {\star} = 0$ with strictly negative horizontal Hessian $\partial _ \xi^2\ln G_y(\mathrm{i}\eta _ {\star}) < 0$. Shifting the contour from $\eta = 0$ to $\eta \in (0,\pi/4)$ raises the positive-to-negative lobe ratio $I _ + / \lvert I _ -\rvert$ at $y = 0.40$ from $1.0023$ (99.77% cancellation) to $2547.95$ at $\omega = 2\gamma_1, \eta = 0.50$, and to $1.547 \times 10^{11}$ in the single-saddle coalesced regime ($\omega = \gamma_1, \eta = 0.18$).
 
 ## Repository Structure
 
@@ -78,10 +78,10 @@ python scripts/verify_paper1_wigner_saddle_coalescence.py
 | **Step 1A** | Holomorphic parity $\lvert\Phi(u) - \Phi(-u)\rvert$ at $u = 0.28 + 0.19\mathrm{i}$ | $2.60591 \times 10^{-61}$ | $60$ dps |
 | **Step 1B** | Hermitian symmetry $\lvert G_y(-\xi+\mathrm{i}\eta) - \overline{G_y(\xi+\mathrm{i}\eta)}\rvert$ | $1.16682 \times 10^{-59}$ | $60$ dps |
 | **Step 2A** | Vertical Cauchy wall magnitude $\lvert G_y(3.0 + 0.55\mathrm{i})\rvert$ ($y = 0.40$) | $2.98538 \times 10^{-654}$ | $60$ dps |
-| **Step 2B** | Closed Cauchy rectangle residual $\lvert\oint_{\partial\mathcal{R}} G_y(z)\mathrm{e}^{\mathrm{i}\gamma_1 z}\,\mathrm{d}z\rvert$ | $3.58732 \times 10^{-43}$ | $38$ dps |
+| **Step 2B** | Closed Cauchy rectangle residual $\lvert\oint _ {\partial\mathcal{R}} G_y(z)\mathrm{e}^{\mathrm{i}\gamma_1 z} \mathrm{d}z\rvert$ | $3.58732 \times 10^{-43}$ | $38$ dps |
 | **Step 3** | Exact pitchfork coalescence threshold $y_c(2\gamma_1)$ and height $\eta_c$ | $y_c = 0.4320205303\dots, \eta_c = 0.6027150239\dots$ | $50$ dps |
-| **Step 4A** | Lobe dominance ratio $I_+ / \lvert I_-\rvert$ ($\omega = 2\gamma_1, y = 0.40, \eta = 0 \to 0.50$) | $1.0023 \to 2547.9547$ ($99.96\%$ net) | IEEE-754 |
-| **Step 4B** | Lobe dominance ratio $I_+ / \lvert I_-\rvert$ ($\omega = \gamma_1, y = 0.40, \eta = 0 \to 0.18$) | $1.8349 \to 1.547 \times 10^{11}$ ($100.00\%$ net) | IEEE-754 |
+| **Step 4A** | Lobe dominance ratio $I _ + / \lvert I _ -\rvert$ ($\omega = 2\gamma_1, y = 0.40, \eta = 0 \to 0.50$) | $1.0023 \to 2547.9547$ (99.96% net) | IEEE-754 |
+| **Step 4B** | Lobe dominance ratio $I _ + / \lvert I _ -\rvert$ ($\omega = \gamma_1, y = 0.40, \eta = 0 \to 0.18$) | $1.8349 \to 1.547 \times 10^{11}$ (100.00% net) | IEEE-754 |
 
 ## Citation
 
