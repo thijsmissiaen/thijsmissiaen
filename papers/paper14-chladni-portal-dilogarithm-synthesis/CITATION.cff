@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this mathematical manuscript, polylogarithmic proofs, or arbitrary-precision verification software, please cite it as below."
+title: "The Chladni Portal-Frame Synthesis: Codimension-Three Saddle Overdetermination, Green-Dirichlet-Neumann Chamber Equipartition, and Euler Dilogarithm Li2(2theta) Horizon Damping for Riemann's Xi-Function"
+authors:
+  - family-names: "Missiaen"
+    given-names: "Thijs"
+    orcid: "https://orcid.org/0009-0007-3678-0810"
+date-released: "2026-10-25"
+version: "1.0.0"
+license: "MIT"
+repository-code: "https://github.com/thijsmissiaen/paper14-chladni-portal-dilogarithm-synthesis"
+keywords:
+  - "Riemann Xi-function"
+  - "Chladni nodal chambers"
+  - "portal-frame dichotomy"
+  - "codimension-three saddle overdetermination"
+  - "Green-Dirichlet-Neumann equipartition"
+  - "Wronskian-slope reciprocity"
+  - "Euler dilogarithm"
+  - "Dirichlet hyperbola method"

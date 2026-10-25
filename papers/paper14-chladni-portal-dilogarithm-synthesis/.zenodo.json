@@ -1,0 +1,39 @@
+{
+  "title": "The Chladni Portal-Frame Synthesis: Codimension-Three Saddle Overdetermination, Green-Dirichlet-Neumann Chamber Equipartition, and Euler Dilogarithm Li_2(2*theta) Horizon Damping for Riemann's Xi-Function",
+  "description": "Paper XIV of the series on the Transverse Wronskian of Riemann's Xi-Function. Unites the harmonic, variational, and arithmetic mechanics of a Chladni Nodal Chamber ('Portal Frame' Omega_k(d_0)) across three interlocked scales (Macro -> Meso -> Micro): (1) Macro-Scale (Section 2): proves the Portal-Frame Topological Dichotomy, the Harmonic Curvature Conservation Law (1/2)*d_d^2[|R|_{Gamma_*}^2]_{d=0} == -(1/2)*d_t^2[Xi^2]_{t=tau_*} == -Xi(tau_*)*Xi''(tau_*) == c_1(tau_*), and the Codimension-3 Interior Saddle Overdetermination Theorem showing that any hypothetical off-critical zero (d_*, gamma_*) requires either Case I (a 1D critical-line foundation defect c_1(tau_*) <= 0 on d = 0, which occurs across 100% of the off-critical zeros of the Davenport-Heilbronn counterexample Xi_DH) or Case II (an interior complex saddle turnaround z_c = t_c - i*d_c, d_c > 0, satisfying 3 real equations in 2 real unknowns {I(d_c, t_c) = 0, d_d I(d_c, t_c) = 0, d_t I(d_c, t_c) = 0}); (2) Meso-Scale (Section 3): proves that because I == 0 (Dirichlet) and dR/dn == 0 (Neumann, via Cauchy-Riemann orthogonality nabla R . nabla I == 0) hold simultaneously on three of the four walls (B_0, Gamma_k, Gamma_{k+1}) of every Chladni chamber Omega_k(d_0), Green's first identity enforces exact 50%-50% chamber equipartition R_{Omega_k}(d_0) == I_{Omega_k}(d_0) == E_{Omega_k}(d_0) == (1/2)*W_{Omega_k}(d_0) > 0, while along each wall Gamma_k Wronskian-slope reciprocity tau_k'(d) == (R*d_t R)/(d*W_tilde) and (d/dd)(1/2 R^2) == d*W_tilde*(1 + tau_k'(d)^2) govern wall rigidity versus the Davenport-Heilbronn fold rupture at (d_tip, t_tip) = (0.29809801, 85.62549444); and (3) Micro-Scale (Section 4): proves the Attenuated Semiprime Spring lower bound |1 + U + (eta/2)*U^2|^2 >= (1 - 1/(2*eta))^2 > 0 for eta > 1/2 (negative discriminant Delta(eta) = 1 - 2*eta < 0), derives exact closed-form Euler dilogarithm Li_2(2*theta) Stieltjes laws proving that unweighted truncation (p = 0) captures only eta^{(0)}(1/6) = 0.243955 < 50% whereas quadratic Wronskian horizon damping (p = 2) shifts eta^{(2)}(1/6) = 0.676891 > 2/3 > 50% (R^{(2)}(1/6) = 2.094927 > 2, 50% root theta_{*,50%}^{(2)} = 0.190550 > theta_{W-pure}^inf = 0.183945) and cubic Wigner-Sinh damping (p = 3) shifts eta^{(3)}(1/6) = 0.798091 (~80%) into the forward triangle pq <= N_*(t), and proves Dirichlet hyperbola reflection duality omega_p(t) + omega_q(t) == ln m_dual(pq) with fourth-order apex pinching (omega_p*omega_q)^2 <= (1/16)*(ln m_dual)^4 -> 0.",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "creators": [
+    {
+      "name": "Missiaen, Thijs",
+      "affiliation": "Independent Researcher, Belgium",
+      "orcid": "0009-0007-3678-0810"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/thijsmissiaen/paper14-chladni-portal-dilogarithm-synthesis",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": [
+    "Riemann Xi-function",
+    "Chladni nodal chambers",
+    "Portal-frame overdetermination",
+    "Green-Dirichlet-Neumann equipartition",
+    "Wronskian-slope reciprocity",
+    "Euler dilogarithm",
+    "Semiprime phase-locking spring",
+    "Dirichlet hyperbola method",
+    "Davenport-Heilbronn function",
+    "Transverse Wronskian",
+    "MSC 11M06",
+    "MSC 11M26",
+    "MSC 30D15",
+    "MSC 31A05"
+  ],
+  "version": "1.0.0"
+}
