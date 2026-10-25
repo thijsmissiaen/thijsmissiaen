@@ -1,6 +1,7 @@
 # Wigner Phase-Space Representation and Complex Saddle-Point Coalescence in the Transverse Wronskian of Riemann's $\Xi$-Function
 
 **Author:** Thijs Missiaen (Independent Researcher, Belgium) &middot; **ORCID:** [`0009-0007-3678-0810`](https://orcid.org/0009-0007-3678-0810)  
+**DOI (Zenodo / CERN):** [`10.5281/zenodo.23637324`](https://doi.org/10.5281/zenodo.23637324)  
 **Repository:** [`https://github.com/thijsmissiaen/thijsmissiaen/tree/main/papers/paper1-wigner-saddle-coalescence`](https://github.com/thijsmissiaen/thijsmissiaen/tree/main/papers/paper1-wigner-saddle-coalescence)  
 **Manuscript:** [`paper/paper1_wigner_saddle_coalescence.pdf`](./paper/paper1_wigner_saddle_coalescence.pdf) (AMS-LaTeX source: [`paper/paper1_wigner_saddle_coalescence.tex`](./paper/paper1_wigner_saddle_coalescence.tex))  
 **Verification Script:** [`scripts/verify_paper1_wigner_saddle_coalescence.py`](./scripts/verify_paper1_wigner_saddle_coalescence.py) (60-decimal `mpmath` + 300-DPI figure generator)
