@@ -33,6 +33,8 @@ The papers in this series resolve several long-standing analytical and computati
 
 | **7** | **de la Vallée Poussin $\sigma = 1$ Pole Barrier & Trudgian Variational Coupling** | de la Vallée Poussin (1899); Guinand (1948); Trudgian (2014) | Mirror-paired Hadamard kernel $K(d, d _ \rho, u)$ with universal conservation law $\int _ {\mathbb{R}} K \mathrm{d}u \equiv \pi$, minorant $K _ {\min}(d,u)$ on $d \ge \frac{1}{2}$, and $d$-independent stationary trajectory $H _ {\mathrm{opt}}(kt) \equiv 2\pi B_S(kt)/\ln(kt/2\pi)$ (**Paper 7**). |
 
+| **8** | **$\mathcal{O}(N(t)^2)$ Cross-Term Explosion, $1+\sqrt{2}$ Root Penalty & $L^1$ Barrier $\frac{1}{2}+d < 1$** | Montgomery & Vaughan (1974); Preissmann (1984); Conrey (1989) | Bilinear rank-2 factorization $w _ {mn}^{\mathrm{int}} \equiv \frac{2}{d^2}(\cosh(d\omega_m)\cosh(d\omega_n)-1)$, pure-square completion $+\frac{1}{d^2}\lVert\Psi _ {\ge 2}\rVert^2 \ge 0$, and $1+2d > 1$ $L^2$ exponent jump (**Paper 8**). |
+
 ## Selected Research
 
 ### Paper 1: Wigner Phase-Space Representation and Complex Saddle-Point Coalescence in the Transverse Wronskian of Riemann's $\Xi$-Function
@@ -115,6 +117,17 @@ We establish an exact dual representation linking the normalized transverse Wron
 * **AMS-LaTeX Source**: [`paper7_mirror_hadamard_variation.tex`](./papers/paper7-mirror-hadamard-variational-law/paper/paper7_mirror_hadamard_variation.tex)
 * **Verification Script & Figure Generator**: [`verify_paper7_mirror_hadamard_variation.py`](./papers/paper7-mirror-hadamard-variational-law/scripts/verify_paper7_mirror_hadamard_variation.py)
 * **AI Agent Skill & Manifest**: [`SKILL.md`](./papers/paper7-mirror-hadamard-variational-law/.agents/skills/mirror-hadamard-variational-law/SKILL.md) &middot; [`AGENT_SKILL_MANIFEST.json`](./papers/paper7-mirror-hadamard-variational-law/AGENT_SKILL_MANIFEST.json)
+
+### Paper 8: Bilinear Rank-2 Factorization of Integrated Wronskian Kernels, Pure-Square Completion, and the $1+2d > 1$ Montgomery–Vaughan Exponent Jump in the Critical Strip
+
+We resolve four classical bottlenecks governing the $\binom{N(t)}{2}$ off-diagonal cross-pairs of the order-$r$ Mobius-sieved Riemann–Siegel main sum up to $N(t) = \lfloor\sqrt{t/2\pi}\rfloor$. Integrating the parity-reduced Wronskian transversely over $u \in [0,d]$ factors the coupled hyperbolic mode weight into the exact bilinear rank-2 identity $w _ {mn}^{\mathrm{int}}(d,t) \equiv \frac{2}{d^2}(\cosh(d\omega_m)\cosh(d\omega_n)-1)$, collapsing $\mathcal{O}(N(t)^2)$ double sums into $\mathcal{O}(N(t))$ prefix sums and revealing a sharp Euler–Maclaurin phase transition $\propto N(t)^{1-4d}(\ln N(t))^{2(r-1)}$ at $d = \frac{1}{4}$ ($\sigma = \frac{3}{4}$). Furthermore, the $-1$ lower-limit boundary terms cancel pairwise against the $d=0$ critical-line ground state, completing the $(m,n \ge 2)$ sector into the non-negative Euclidean square $+\frac{1}{d^2}\lVert\Psi _ {\ge 2}\rVert^2 \ge 0$ (eliminating the $1+\sqrt{2}$ root-isolation penalty), while passing from $L^1$ to $L^2$ via the Montgomery–Vaughan–Preissmann inequality shifts the exponent from $\frac{1}{2}+d < 1$ to $2(\frac{1}{2}+d) = 1+2d > 1$.
+
+* **Dedicated Repository**: [`thijsmissiaen/paper8-bilinear-rank2-wronskian`](https://github.com/thijsmissiaen/paper8-bilinear-rank2-wronskian)
+* **Package Directory**: [`papers/paper8-bilinear-rank2-montgomery-vaughan/`](./papers/paper8-bilinear-rank2-montgomery-vaughan/)
+* **Academic PDF Manuscript (18 pages)**: [`paper8_bilinear_rank2_wronskian.pdf`](./papers/paper8-bilinear-rank2-montgomery-vaughan/paper/paper8_bilinear_rank2_wronskian.pdf)
+* **AMS-LaTeX Source**: [`paper8_bilinear_rank2_wronskian.tex`](./papers/paper8-bilinear-rank2-montgomery-vaughan/paper/paper8_bilinear_rank2_wronskian.tex)
+* **Verification Script & Figure Generator**: [`verify_paper8_bilinear_rank2_wronskian.py`](./papers/paper8-bilinear-rank2-montgomery-vaughan/scripts/verify_paper8_bilinear_rank2_wronskian.py)
+* **AI Agent Skill & Manifest**: [`SKILL.md`](./papers/paper8-bilinear-rank2-montgomery-vaughan/.agents/skills/bilinear-rank2-wronskian/SKILL.md) &middot; [`AGENT_SKILL_MANIFEST.json`](./papers/paper8-bilinear-rank2-montgomery-vaughan/AGENT_SKILL_MANIFEST.json)
 
 ## Technical Stack & Formalization
 
