@@ -37,6 +37,8 @@ The papers in this series resolve several long-standing analytical and computati
 
 | **9** | **Phase-Dependent Riemann–Siegel Branch Interference & $\mathcal{O}(t^{1/2})$ Prime-Sum Ceiling** | Siegel (1932); Rosser & Schoenfeld (1962); Dusart (2018) | Phase-independent confocal ellipse identity $\lvert T_n(d,t)\rvert^2 - \lvert T_n(0,t)\rvert^2 \equiv 4n^{-1}\sinh^2(d\omega_n)$, three-part $u$-domain bridge ($\theta_c < \frac{1}{4}$), and explicit Stieltjes bounds on $[10^8, \infty)$ (**Paper 9**). |
 
+| **10** | **Bohr–Kronecker Torus Anti-Phase Paradox & Off-Critical Hadamard Flux Defect** | Bohr & Jessen (1930); Voronin (1975); Krein (1949) | Kac–Weyl recurrence barrier $\exp(C\sqrt{t}/\ln t) \gg t$, semiprime sum-of-squares floor $\ge \frac{1}{4}$ on $V=0$, quantized flux step $\mathcal{F}(d,d _ \star) = \pi\Theta(d-d _ \star)$ via $\mp\arcsin(d/d _ \star)$, and 1D Chladni wall identity (**Paper 10**). |
+
 ## Selected Research
 
 ### Paper 1: Wigner Phase-Space Representation and Complex Saddle-Point Coalescence in the Transverse Wronskian of Riemann's $\Xi$-Function
@@ -141,6 +143,17 @@ We establish the Three-Part $u$-Domain Bridge Identity $\frac{1}{2}\Xi(t-\mathrm
 * **AMS-LaTeX Source**: [`paper9_confocal_ellipse_synthesis.tex`](./papers/paper9-confocal-ellipse-bridge-synthesis/paper/paper9_confocal_ellipse_synthesis.tex)
 * **Verification Script & Figure Generator**: [`verify_paper9_confocal_ellipse_synthesis.py`](./papers/paper9-confocal-ellipse-bridge-synthesis/scripts/verify_paper9_confocal_ellipse_synthesis.py)
 * **AI Agent Skill & Manifest**: [`SKILL.md`](./papers/paper9-confocal-ellipse-bridge-synthesis/.agents/skills/confocal-ellipse-bridge-synthesis/SKILL.md) &middot; [`AGENT_SKILL_MANIFEST.json`](./papers/paper9-confocal-ellipse-bridge-synthesis/AGENT_SKILL_MANIFEST.json)
+
+### Paper 10: Beyond the Bohr–Kronecker Torus Barrier: Semiprime Phase-Locking, Quantized Hadamard–Krein Flux Defects $\pi\Theta(d - d _ {\star})$, and the Exact Chladni–Wronskian Wall Identity for Riemann's $\Xi$-Function
+
+We establish three structural closure mechanisms for the parity-reduced transverse Wronskian $\widetilde{W}(d,t) = \frac{1}{2d}\partial_d\lvert\Xi(t-\mathrm{i}d)\rvert^2$ beyond the classical Bohr–Kronecker and Voronin torus approximation barriers. First, we prove that the ergodic (Kac–Weyl) mean Bohr–Kronecker recurrence horizon for simultaneous $\varepsilon$-alignment of the $\pi(N(t)) - \pi(X)$ active prime phases grows super-polynomially as $\exp(C\frac{\sqrt{t}}{\ln t}(1+o(1))) \gg t$, while multiplicative phase-locking $\phi _ {pq}(t) = \phi_p(t) + \phi_q(t)$ in $\zeta(s)E_X(s) = \exp(\mathcal{P} _ {>X}(s))$ enforces the exact sum-of-squares identity $\lvert 1 + \mathcal{P} _ {>X} + \frac{1}{2}\mathcal{P} _ {>X}^2\rvert^2 = \frac{1}{4}((1+U)^2 + 1 - V^2)^2 + V^2(1+U)^2 \ge \frac{1}{4}$ on the real anti-phase axis $V = 0$. Second, we prove that the mirror-paired Hadamard–Poisson kernel of any off-critical zero pair $z _ {\pm} = \gamma _ {\star} \mp \mathrm{i}d _ {\star}$ integrates over $u \in (-\infty,\infty)$ to the quantized step function $\pi\Theta(d - d _ {\star})$ via exact arcsine lobe cancellation $\mp\arcsin(d/d _ {\star})$. Third, along every imaginary Chladni nodal wall $\Gamma_k : I(d, \tau_k(d)) \equiv 0$, implicit Cauchy–Riemann differentiation yields the exact 1D identity $\widetilde{W}(d, \tau_k(d)) \equiv R(d, \tau_k(d))\partial_t I(d, \tau_k(d))/d$ without Dirichlet triangle inequalities.
+
+* **Dedicated Repository**: [`thijsmissiaen/paper10-spectral-resonance-chladni-closure`](https://github.com/thijsmissiaen/paper10-spectral-resonance-chladni-closure)
+* **Package Directory**: [`papers/paper10-spectral-resonance-chladni-closure/`](./papers/paper10-spectral-resonance-chladni-closure/)
+* **Academic PDF Manuscript (13 pages)**: [`paper10_spectral_resonance_chladni_closure.pdf`](./papers/paper10-spectral-resonance-chladni-closure/paper/paper10_spectral_resonance_chladni_closure.pdf)
+* **AMS-LaTeX Source**: [`paper10_spectral_resonance_chladni_closure.tex`](./papers/paper10-spectral-resonance-chladni-closure/paper/paper10_spectral_resonance_chladni_closure.tex)
+* **Verification Script & Figure Generator**: [`verify_paper10_spectral_resonance_chladni_closure.py`](./papers/paper10-spectral-resonance-chladni-closure/scripts/verify_paper10_spectral_resonance_chladni_closure.py)
+* **AI Agent Skill & Manifest**: [`SKILL.md`](./papers/paper10-spectral-resonance-chladni-closure/.agents/skills/spectral-resonance-chladni-closure/SKILL.md) &middot; [`AGENT_SKILL_MANIFEST.json`](./papers/paper10-spectral-resonance-chladni-closure/AGENT_SKILL_MANIFEST.json)
 
 ## Technical Stack & Formalization
 
