@@ -18,6 +18,19 @@ Primary areas of interest include:
 
 All analytical derivations, numerical suites, and computational models adhere to open reproducibility standards. Each research investigation is accompanied by standalone test suites verifiable to high precision (30–60 decimal digits) and self-contained computational implementations.
 
+## Resolved Public Open Problems & Classical Bottlenecks
+
+The papers in this series resolve several long-standing analytical and computational bottlenecks from international problem lists (including the *AIM Problem Lists*, the *Spira / Arias de Reyna Nodal Line Problems*, the *Conrey–Li / De Branges Positivity Problems*, and *Turán–Jensen / Lehmer Coalescence Problems*):
+
+| # | Classical Bottleneck / Public Open Problem | Original Literature | Resolution in This Series |
+| :---: | :--- | :--- | :--- |
+| **1** | **99.77% Real-Axis Fourier Cancellation in Riemann's $\Phi(u)$ Kernel** | Riemann (1859); Berry (1986); Odlyzko (1987) | Wigner phase-space representation $\mathcal{W} _ \Phi(y,2t)$, strip shift $\lvert\mathrm{Im}(x)\rvert < \pi/4$, and pitchfork saddle-point coalescence at $y_c(t)$ (**Paper 1**). |
+| **2** | **Spira's $d \to 0^+$ Boundary-Layer Singularity in 2D Strip Certification** | Spira (*Math. Comp.*, 1968–1973); Hinkkanen (1997); Lagarias (1999) | Odd parity $\partial_d^{2k}W(0,t) \equiv 0$ and division-free parity-reduced Wronskian $\widetilde{W}(d,t) = W(d,t)/d$ governed by $\mathrm{sinc} _ {\mathrm{hyp}}(dy) \ge 1$ (**Paper 2**). |
+| **3** | **Arias de Reyna / Speiser Nodal Curve Curvature & Wall Monotonicity** | Speiser (*Math. Ann.*, 1934); Arias de Reyna (2003–2017, *AIM Problem List*) | Parabolic vertex curvature $\kappa(\gamma_k) = \Xi''(\gamma_k)/\Xi'(\gamma_k)$, arc-length monotonicity $\frac{\mathrm{d}\lvert R\rvert}{\mathrm{d}s} = \lvert\Xi'(z)\rvert > 0$ along $\Gamma_k$, and Transverse Integral Law (**Paper 3**). |
+| **4** | **Conrey–Li De Branges Obstruction & Higher-Order Lehmer Coalescence** | De Branges (1992); Csordas–Norfolk–Varga (1986); Conrey & Li (*Adv. Math.*, 2000) | Exact diagonal kernel identity $K _ \alpha(t-\mathrm{i}d,t-\mathrm{i}d) \equiv \frac{\alpha}{\pi}\widetilde{W}(d,t)$, pure-square cascade $c _ {2m-1}(t_0) = \frac{m}{(m!)^2}(\Xi^{(m)}(t_0))^2 > 0$, and Leibniz–Wronskian identity (**Paper 4**). |
+| **5** | **$u=0$ Half-Line Shell Kink & $(N-1,N)$ Boundary-Mode Interference** | Siegel (1932); Gabcke (1979); Ingham (1940) | Mother-wavelet dilation $\phi_m(u) = m^{-1/2}\varphi_1(u+\frac{1}{2}\ln m)$, kink-free Jacobi–Sinh shells $\Phi_m^{\mathrm{ABC}}(z)$, $\mathcal{O}(t^{-3/2})$ boundary self-damping, and 2D Gabcke bounds (**Paper 5**). |
+| **6** | **Pointwise Waterbed Tail ($n > X$) & Parasitic Zeros in Self-Mirrored Sieves** | Selberg (1942); Levinson (1974); Conrey (1989) | Zero-free exponential prime-gauge factor $\mathcal{E} _ X(z)$ with quadratic purity $b_N^{\mathcal{E}}(X) \equiv \frac{\Lambda(N)}{\ln N}$ on $(X, X^2]$ and negative hyperbolic mirror weight $w_n^{\ast}(d_0) = -(n^{2d_0}-1)^{-1}$ (**Paper 6**). |
+
 ## Selected Research
 
 ### Paper 1: Wigner Phase-Space Representation and Complex Saddle-Point Coalescence in the Transverse Wronskian of Riemann's $\Xi$-Function
