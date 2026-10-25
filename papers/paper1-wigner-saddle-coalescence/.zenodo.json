@@ -1,0 +1,24 @@
+{
+  "title": "Wigner Phase-Space Representation and Complex Saddle-Point Coalescence in the Transverse Wronskian of Riemann's Xi-Function",
+  "description": "We prove that the inner correlation integral I(y,t) governing the transverse Wronskian W(d,t) = (1/2) partial_d |Xi(t - i d)|^2 of Riemann's completed Xi-function is proportional to the quantum-mechanical Wigner phase-space distribution W_Phi(y, 2t) of the Jacobi-Riemann kernel Phi(u), and that its 99.77% real-axis Fourier cancellation at t = gamma_1 is eliminated by shifting the integration contour into the holomorphic strip |Im(x)| < pi/4. Includes the complete 13-page AMS-LaTeX manuscript, compiled academic PDF, and 60-decimal arbitrary-precision mpmath verification suite.",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "creators": [
+    {
+      "name": "Missiaen, Thijs",
+      "affiliation": "Independent Researcher, Belgium",
+      "orcid": "0009-0007-3678-0810"
+    }
+  ],
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "Riemann Xi-function",
+    "Jacobi theta kernel",
+    "transverse Wronskian",
+    "Wigner phase-space distribution",
+    "Hudson theorem",
+    "complex saddle-point coalescence",
+    "steepest descent",
+    "analytic number theory"
+  ]
+}

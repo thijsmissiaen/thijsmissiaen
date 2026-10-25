@@ -1,7 +1,7 @@
 # Thijs Missiaen
 
 *Independent Researcher in Computational Mathematics & Analytic Number Theory*  
-Location: Belgium &nbsp;&middot;&nbsp; Contact: [thijs.missiaen@gmail.com](mailto:thijs.missiaen@gmail.com)
+Location: Belgium &nbsp;&middot;&nbsp; ORCID: [`0009-0007-3678-0810`](https://orcid.org/0009-0007-3678-0810) &nbsp;&middot;&nbsp; Contact: [thijs.missiaen@gmail.com](mailto:thijs.missiaen@gmail.com)
 
 ## Research Focus & Scientific Methodology
 
@@ -39,4 +39,4 @@ We prove that the inner correlation integral $I(y,t)$ governing the transverse W
 
 I welcome rigorous critique, counter-examples, and academic dialogue from researchers and mathematicians working on analytic number theory, spectral theory, and numerical verification.
 
-Contact: [thijs.missiaen@gmail.com](mailto:thijs.missiaen@gmail.com)
+Contact: [thijs.missiaen@gmail.com](mailto:thijs.missiaen@gmail.com) &nbsp;&middot;&nbsp; ORCID: [`https://orcid.org/0009-0007-3678-0810`](https://orcid.org/0009-0007-3678-0810)
