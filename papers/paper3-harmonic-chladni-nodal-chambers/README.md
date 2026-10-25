@@ -1,10 +1,14 @@
 # Harmonic Nodal Chambers, Parabolic Zero-Curve Curvature, and the Transverse Integral Law for Riemann's $\Xi$-Function
 
+**DOI (Zenodo / CERN):** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23641701.svg)](https://doi.org/10.5281/zenodo.23641701) [`10.5281/zenodo.23641701`](https://doi.org/10.5281/zenodo.23641701)  
 **Author:** Thijs Missiaen (Independent Researcher, Belgium; ORCID: [0009-0007-3678-0810](https://orcid.org/0009-0007-3678-0810))  
 **Repository & Version:** [`https://github.com/thijsmissiaen/paper3-harmonic-nodal-chambers`](https://github.com/thijsmissiaen/paper3-harmonic-nodal-chambers) (v1.0.0)  
 **Manuscript:** [`paper/paper3_harmonic_nodal_chambers.pdf`](paper/paper3_harmonic_nodal_chambers.pdf) (16 pages, AMS-LaTeX / pdfTeX)  
 **MSC 2020:** Primary 11M06, 30C15; Secondary 30D15, 31A05, 65G30  
 **License:** MIT
+
+> [!IMPORTANT]
+> **Resolved Classical Bottleneck / Open Problem Context (Sign-Alternating $I\,\partial_d I$ Cross-Term & Parabolic Zero-Trajectory Geometry):** In 2D critical-strip analysis, the cross-term $I\,\partial_d I$ in $\frac{1}{2}\partial_d\lvert\Xi\rvert^2 = R\,\partial_d R + I\,\partial_d I$ alternates sign rapidly with $t$. This paper resolves this obstacle by partitioning the strip into oscillation-free Harmonic Nodal Chambers $\Omega_k$ bounded by the imaginary nodal walls $\Gamma_k : I(d,t) = 0$ (where $I\,\partial_d I \equiv 0$ and $\frac{\mathrm{d}}{\mathrm{d}s}\lvert R\rvert = \lvert\Xi'\rvert > 0$), deriving the closed-form parabolic zero-curve curvature $\kappa(\gamma_k) = \Xi''(\gamma_k)/\Xi'(\gamma_k)$, and proving the Transverse Integral Law with its hyperbolic low-pass filter $\mathcal{F} _ {\mathrm{int}}(2dy) = \frac{\tanh(dy)}{dy} \in (0,1)$.
 
 ## Abstract
 

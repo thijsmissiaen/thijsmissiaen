@@ -1,8 +1,12 @@
 # De Branges Reproducing Kernels, the Universal Transverse Square-Cascade for Lehmer Pairs, and the Leibniz–Wronskian Identity for Riemann's $\Xi$-Function
 
+**DOI (Zenodo / CERN):** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23641702.svg)](https://doi.org/10.5281/zenodo.23641702) [`10.5281/zenodo.23641702`](https://doi.org/10.5281/zenodo.23641702)  
 **Author:** Thijs Missiaen (Independent Researcher, Belgium; [thijs.missiaen@gmail.com](mailto:thijs.missiaen@gmail.com); ORCID: [0009-0007-3678-0810](https://orcid.org/0009-0007-3678-0810))  
 **Series:** Paper IV of the Transverse Wronskian Series on Riemann's $\Xi$-Function  
 **Manuscript:** [`paper/paper4_debranges_lehmer_cascade.pdf`](paper/paper4_debranges_lehmer_cascade.pdf) (18 pages, AMS-LaTeX / pdfTeX)
+
+> [!IMPORTANT]
+> **Resolved Classical Bottleneck / Open Problem Context (Conrey–Li De Branges Obstruction & Lehmer Near-Coalescence Singularity):** Conrey and Li (2000) proved that global positivity conditions on Sonine–De Branges Hilbert spaces fail for $\Xi(z)$, while Lehmer pairs ($t _ \pm = t _ {\mathrm{mid}} \pm \delta$ as $\delta \to 0$) drive the leading critical-line invariant $c_1(t _ {\mathrm{mid}}) = \mathcal{O}(\delta^2)$ toward zero. This paper resolves both bottlenecks by proving the exact local identity $K _ \alpha(t-\mathrm{i}d, t-\mathrm{i}d) \equiv \frac{\alpha}{\pi}\widetilde{W}(d,t)$ (decoupling local off-critical zero exclusion from global Sonine obstructions) and the Universal Transverse Square-Cascade $c _ {2m-1}(t_0) = \frac{m}{(m!)^2}(\Xi^{(m)}(t_0))^2 > 0$, which guarantees an unbroken 2D quadratic bowl $\widetilde{W}(d,t _ {\mathrm{mid}}+\tau) = \frac{1}{2}(\Xi''(t _ {\mathrm{mid}}))^2(\delta^2+\tau^2+d^2)+\mathcal{O}(3) > 0$.
 
 ## Overview
 

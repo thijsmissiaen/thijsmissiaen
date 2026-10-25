@@ -31,6 +31,8 @@ The papers in this series resolve several long-standing analytical and computati
 | **5** | **$u=0$ Half-Line Shell Kink & $(N-1,N)$ Boundary-Mode Interference** | Siegel (1932); Gabcke (1979); Ingham (1940) | Mother-wavelet dilation $\phi_m(u) = m^{-1/2}\varphi_1(u+\frac{1}{2}\ln m)$, kink-free Jacobi–Sinh shells $\Phi_m^{\mathrm{ABC}}(z)$, $\mathcal{O}(t^{-3/2})$ boundary self-damping, and 2D Gabcke bounds (**Paper 5**). |
 | **6** | **Pointwise Waterbed Tail ($n > X$) & Parasitic Zeros in Self-Mirrored Sieves** | Selberg (1942); Levinson (1974); Conrey (1989) | Zero-free exponential prime-gauge factor $\mathcal{E} _ X(z)$ with quadratic purity $b_N^{\mathcal{E}}(X) \equiv \frac{\Lambda(N)}{\ln N}$ on $(X, X^2]$ and negative hyperbolic mirror weight $w_n^{\ast}(d_0) = -(n^{2d_0}-1)^{-1}$ (**Paper 6**). |
 
+| **7** | **de la Vallée Poussin $\sigma = 1$ Pole Barrier & Trudgian Variational Coupling** | de la Vallée Poussin (1899); Guinand (1948); Trudgian (2014) | Mirror-paired Hadamard kernel $K(d, d _ \rho, u)$ with universal conservation law $\int _ {\mathbb{R}} K \mathrm{d}u \equiv \pi$, minorant $K _ {\min}(d,u)$ on $d \ge \frac{1}{2}$, and $d$-independent stationary trajectory $H _ {\mathrm{opt}}(kt) \equiv 2\pi B_S(kt)/\ln(kt/2\pi)$ (**Paper 7**). |
+
 ## Selected Research
 
 ### Paper 1: Wigner Phase-Space Representation and Complex Saddle-Point Coalescence in the Transverse Wronskian of Riemann's $\Xi$-Function
@@ -102,6 +104,17 @@ We couple the universal mother-wavelet decomposition $\Phi(u) = \sum _ {m=1}^\in
 * **AMS-LaTeX Source**: [`paper6_sieved_mirror_prime_gauge.tex`](./papers/paper6-sieved-mirror-kernel-prime-gauge/paper/paper6_sieved_mirror_prime_gauge.tex)
 * **Verification Script & Figure Generator**: [`verify_paper6_sieved_mirror_prime_gauge.py`](./papers/paper6-sieved-mirror-kernel-prime-gauge/scripts/verify_paper6_sieved_mirror_prime_gauge.py)
 * **AI Agent Skill & Manifest**: [`SKILL.md`](./papers/paper6-sieved-mirror-kernel-prime-gauge/.agents/skills/sieved-mirror-prime-gauge/SKILL.md) &middot; [`AGENT_SKILL_MANIFEST.json`](./papers/paper6-sieved-mirror-kernel-prime-gauge/AGENT_SKILL_MANIFEST.json)
+
+### Paper 7: The Mirror-Paired Hadamard Square-Denominator Identity, the Universal Conservation Law $\int _ {\mathbb{R}} K \mathrm{d}u \equiv \pi$, and Stationary Trudgian Variation in the Critical Strip
+
+We establish an exact dual representation linking the normalized transverse Wronskian $\widehat{W}(d,t) = W(d,t)/\lvert\Xi(t-\mathrm{i}d)\rvert^2$ of Riemann's $\Xi$-function to Fejér–Lukács pure-square trigonometric multiplets $\mathcal{S} _ {\pm}(d,t)$—resolving the classical de la Vallée Poussin $\sigma = 1$ ($d = \frac{1}{2}$) pole barrier—on the Euler-product side and to mirror-paired Hadamard zero sums on the spectral side. Pairing each nontrivial zero $\rho = \frac{1}{2} + d _ \rho + \mathrm{i}\gamma _ \rho$ with its functional-equation mirror $1 - \bar{\rho} = \frac{1}{2} - d _ \rho + \mathrm{i}\gamma _ \rho$ yields the square-denominator kernel $K(d, d _ \rho, u) = d(d^2 - d _ \rho^2 + u^2)/[((d^2 - d _ \rho^2 + u^2)^2 + 4u^2 d _ \rho^2)]$, which satisfies the universal Guinand–Weil / Hadamard mirror-pair conservation law $\int _ {-\infty}^{\infty} K(d, d _ \rho, u) \mathrm{d}u \equiv \pi$ for all $d > \lvert d _ \rho\rvert$ and admits on $d \ge \frac{1}{2}$ the hypothesis-free minorant $K _ {\min}(d,u) := K(d, \frac{1}{2}, u)$ throughout $\lvert u\rvert \ge H _ {\min}(d) = \sqrt{(d^2 - 1/4)/3}$. Integrating by parts against the Riemann–von Mangoldt decomposition $\mathrm{d}N(\gamma) = \frac{1}{2\pi}\ln(\gamma/2\pi) \mathrm{d}\gamma + \mathrm{d}S(\gamma)$ with Trudgian's explicit bound $\lvert S(T)\rvert \le B_S(T)$ reveals that $\partial_H K _ {\min}(d,H) < 0$ factors out identically from stationarity, pinning the optimal window half-width to the $d$-independent trajectory $H _ {\mathrm{opt}}(kt) \equiv 2\pi B_S(kt)/\ln(kt/2\pi) \to 2\pi(0.112) = 0.70371675\dots$.
+
+* **Dedicated Repository**: [`thijsmissiaen/paper7-mirror-hadamard-variation`](https://github.com/thijsmissiaen/paper7-mirror-hadamard-variation)
+* **Package Directory**: [`papers/paper7-mirror-hadamard-variational-law/`](./papers/paper7-mirror-hadamard-variational-law/)
+* **Academic PDF Manuscript (18 pages)**: [`paper7_mirror_hadamard_variation.pdf`](./papers/paper7-mirror-hadamard-variational-law/paper/paper7_mirror_hadamard_variation.pdf)
+* **AMS-LaTeX Source**: [`paper7_mirror_hadamard_variation.tex`](./papers/paper7-mirror-hadamard-variational-law/paper/paper7_mirror_hadamard_variation.tex)
+* **Verification Script & Figure Generator**: [`verify_paper7_mirror_hadamard_variation.py`](./papers/paper7-mirror-hadamard-variational-law/scripts/verify_paper7_mirror_hadamard_variation.py)
+* **AI Agent Skill & Manifest**: [`SKILL.md`](./papers/paper7-mirror-hadamard-variational-law/.agents/skills/mirror-hadamard-variational-law/SKILL.md) &middot; [`AGENT_SKILL_MANIFEST.json`](./papers/paper7-mirror-hadamard-variational-law/AGENT_SKILL_MANIFEST.json)
 
 ## Technical Stack & Formalization
 

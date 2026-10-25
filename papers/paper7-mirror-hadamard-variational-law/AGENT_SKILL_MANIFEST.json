@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "name": "mirror-hadamard-variational-law",
+  "title": "The Mirror-Paired Hadamard Square-Denominator Identity, the Universal Conservation Law int_R K du = pi, and Stationary Trudgian Variation in the Critical Strip",
+  "version": "1.0.0",
+  "author": {
+    "name": "Thijs Missiaen",
+    "affiliation": "Independent Researcher, Belgium",
+    "email": "thijs.missiaen@gmail.com",
+    "orcid": "0009-0007-3678-0810"
+  },
+  "repository": "https://github.com/thijsmissiaen/paper7-mirror-hadamard-variation",
+  "license": "MIT",
+  "msc_2020": ["11M06", "11M26", "30D15", "42A05"],
+  "entrypoints": {
+    "skill": ".agents/skills/mirror-hadamard-variational-law/SKILL.md",
+    "manuscript_tex": "paper/paper7_mirror_hadamard_variation.tex",
+    "manuscript_pdf": "paper/paper7_mirror_hadamard_variation.pdf",
+    "verification_script": "scripts/verify_paper7_mirror_hadamard_variation.py",
+    "figures": [
+      "figures/fig1_pure_square_and_sieved_strip_wall.png",
+      "figures/fig2_hadamard_conservation_and_stationary_variation.png"
+    ]
+  },
+  "core_theorems": [
+    "Theorem 1.1: Mirror-Paired Hadamard Square-Denominator Identity, Universal Conservation Law, and Stationary Trudgian Variation",
+    "Theorem 2.2: Pure-Square Trigonometric Multiplets S_pm(d,t) and Fejer-Lukacs Pole Suppression Lambda_max(K) = 2 cos(pi/(K+2))",
+    "Theorem 3.1: Mirror-Paired Hadamard Square-Denominator Identity D(d, d_rho, u) = (d^2 - d_rho^2 + u^2)^2 + 4u^2 d_rho^2",
+    "Theorem 3.3: Dual Sieved Pure-Square Decomposition and Monotone Critical-Strip Penetration d_{strip,X}^{mirror}(t)",
+    "Theorem 4.1: Universal Conservation Law int_{-inf}^{inf} K(d, d_rho, u) du = pi and Exact Window Antiderivative",
+    "Theorem 4.2: Exact Quartic Difference Factorization and Hypothesis-Free Minorant K_min(d,u) = K(d, 1/2, u)",
+    "Theorem 5.1: Stieltjes Integration by Parts, Boundary-Jump Cancellation, and the d-Independent Stationary Variational Law H_opt(kt) = 2*pi*B_S(kt)/ln(kt/2pi)",
+    "Theorem 5.2: Multi-Harmonic Variational Strip Contraction d_{strip,X}^{opt}(t)"
+  ],
+  "verification_command": "python scripts/verify_paper7_mirror_hadamard_variation.py"
+}

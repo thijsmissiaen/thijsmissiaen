@@ -28,5 +28,5 @@
     "MSC 30D15"
   ],
   "notes": "AMS-LaTeX preprint (15 pages, 4 tables, 2 figures) with companion mpmath.iv directed-rounding interval and GPU verification suite. Part II of the series on the transverse Wronskian of Riemann's Xi-function (Part I: https://doi.org/10.5281/zenodo.23637324).",
-  "version": "2.0.0"
+  "version": "1.0.0"
 }

@@ -1,5 +1,6 @@
 # Wigner Phase-Space Representation and Complex Saddle-Point Coalescence in the Transverse Wronskian of Riemann's $\Xi$-Function
 
+**DOI (Zenodo / CERN):** [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23637324.svg)](https://doi.org/10.5281/zenodo.23637324) [`10.5281/zenodo.23637324`](https://doi.org/10.5281/zenodo.23637324)  
 **Author:** Thijs Missiaen (Independent Researcher, Belgium) &middot; **ORCID:** [`0009-0007-3678-0810`](https://orcid.org/0009-0007-3678-0810)  
 **DOI (Zenodo / CERN):** [`10.5281/zenodo.23637324`](https://doi.org/10.5281/zenodo.23637324)  
 **Repository:** [`https://github.com/thijsmissiaen/thijsmissiaen/tree/main/papers/paper1-wigner-saddle-coalescence`](https://github.com/thijsmissiaen/thijsmissiaen/tree/main/papers/paper1-wigner-saddle-coalescence)  
@@ -7,6 +8,9 @@
 **Verification Script:** [`scripts/verify_paper1_wigner_saddle_coalescence.py`](./scripts/verify_paper1_wigner_saddle_coalescence.py) (60-decimal `mpmath` + 300-DPI figure generator)
 
 ---
+
+> [!IMPORTANT]
+> **Resolved Classical Bottleneck / Open Problem Context (Hudson Sign Indefiniteness & 99.77% Real-Axis Fourier Cancellation):** By Hudson's Theorem (1974), the Wigner distribution $I(y,\omega) = 2\pi\mathcal{W} _ \Phi(y, 2\omega)$ of the non-Gaussian Jacobi–Riemann kernel $\Phi(u)$ cannot be pointwise non-negative and suffers 99.77% oscillatory cancellation along the real axis at $t = \gamma_1$. This paper resolves this phase-space bottleneck by proving holomorphy on $\lvert\mathrm{Im}(x)\rvert < \pi/4$, shifting the contour into the upper half-plane, and discovering the exact supercritical complex saddle-point pitchfork bifurcation at $y_c(\omega)$.
 
 ## Abstract and Mathematical Overview
 
