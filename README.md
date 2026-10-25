@@ -16,22 +16,24 @@ Primary areas of interest include:
 
 ### Open Science & Reproducibility
 
-All analytical derivations, numerical suites, and computational models adhere to open reproducibility standards. Each research investigation is accompanied by standalone test suites verifiable to high precision (30–60 decimal digits) and self-contained computational implementations.
+All analytical derivations, numerical suites, and computational models adhere to open reproducibility standards. Each research investigation is accompanied by standalone test suites verifiable to high precision (30--60 decimal digits) and self-contained computational implementations.
 
 ## Selected Research
 
-### Transverse Wronskian & Phase-Space Analysis of Riemann's Kernel
+### Paper 1: Wigner Phase-Space Representation and Complex Saddle-Point Coalescence in the Transverse Wronskian of Riemann's $\Xi$-Function
 
-An analytical and numerical investigation into the transverse dynamics of Riemann's $\Phi(u)$ Jacobi-theta kernel across the critical line.
+We prove that the inner correlation integral $I(y,t)$ governing the transverse Wronskian $W(d,t) = \frac{1}{2}\partial_d|\Xi(t-\mathrm{i}d)|^2$ in mirror coordinates $(x=u+v, y=u-v)$ is proportional to the quantum-mechanical Wigner phase-space distribution $\mathcal{W}_\Phi(y, 2t)$ of Riemann's Jacobi-theta kernel $\Phi(u)$, satisfying the zero-marginal identity $\int_{-\infty}^\infty I(y,\gamma_k)\,\mathrm{d}y = 2|\Xi(\gamma_k)|^2 = 0$ at every real zero $\gamma_k$. Shifting the integration contour into the holomorphic strip $|\operatorname{Im}(x)| < \pi/4$ (where the vertical Cauchy walls decay double-exponentially as $\mathcal{O}(\mathrm{e}^{9L}\exp(-2\pi\cosh(2y)\mathrm{e}^{2L}\cos(2\eta)))$) reveals a pitchfork saddle-point coalescence at $y_c(\omega)$ onto the imaginary axis $\xi_* = 0$, eliminating the $99.77\%$ real-axis Fourier cancellation.
 
-* **Key Techniques**: Wigner phase-space transforms, parity-reduced transverse Wronskians $\widetilde{W}(d,t) = W(d,t)/d$, and saddle-point coalescence along complex integration contours.
-* **Certification**: GPU-accelerated Lipschitz bounding and multi-decimal certified interval evaluations ($>30$ decimal digits) demonstrating sign-definiteness on compact domains.
-* **Artifacts**: Reproducible Python verification suites and complete analytical derivations.
+* **Package Directory**: [`papers/paper1-wigner-saddle-coalescence/`](./papers/paper1-wigner-saddle-coalescence/)
+* **Academic PDF Manuscript (13 pages)**: [`paper1_wigner_saddle_coalescence.pdf`](./papers/paper1-wigner-saddle-coalescence/paper/paper1_wigner_saddle_coalescence.pdf)
+* **AMS-LaTeX Source**: [`paper1_wigner_saddle_coalescence.tex`](./papers/paper1-wigner-saddle-coalescence/paper/paper1_wigner_saddle_coalescence.tex)
+* **60-Decimal Verification Script & Figure Generator**: [`verify_paper1_wigner_saddle_coalescence.py`](./papers/paper1-wigner-saddle-coalescence/scripts/verify_paper1_wigner_saddle_coalescence.py)
+* **AI Agent Skill & Manifest**: [`SKILL.md`](./papers/paper1-wigner-saddle-coalescence/.agents/skills/wigner-saddle-coalescence-xi/SKILL.md) &middot; [`AGENT_SKILL_MANIFEST.json`](./papers/paper1-wigner-saddle-coalescence/AGENT_SKILL_MANIFEST.json)
 
 ## Technical Stack & Formalization
 
 * **Analysis & Computation**: Python (`mpmath`, `numpy`, `scipy`, `sympy`), PyTorch / CUDA for interval Lipschitz certifications.
-* **Typesetting & Mathematical Formalization**: LaTeX (`amsart`, `tikz`, `pgfplots`), KaTeX.
+* **Typesetting & Mathematical Formalization**: LaTeX (`amsart`, `tikz`, `pgfplots`), Tectonic / pdfTeX.
 
 ## Academic Dialogue & Critique
 
