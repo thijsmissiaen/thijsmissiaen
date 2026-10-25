@@ -53,6 +53,17 @@ Decomposing $\Xi(t-\mathrm{i}d) = R(d,t) + \mathrm{i}I(d,t)$ into its coupled ha
 * **Verification Script & Figure Generator**: [`verify_paper3_harmonic_nodal_chambers.py`](./papers/paper3-harmonic-chladni-nodal-chambers/scripts/verify_paper3_harmonic_nodal_chambers.py)
 * **AI Agent Skill & Manifest**: [`SKILL.md`](./papers/paper3-harmonic-chladni-nodal-chambers/.agents/skills/harmonic-nodal-chambers-xi/SKILL.md) &middot; [`AGENT_SKILL_MANIFEST.json`](./papers/paper3-harmonic-chladni-nodal-chambers/AGENT_SKILL_MANIFEST.json)
 
+### Paper 4: De Branges Reproducing Kernels, the Universal Transverse Square-Cascade for Lehmer Pairs, and the Leibniz–Wronskian Identity for Riemann's $\Xi$-Function
+
+For the linear Hermite–Biehler candidate family $E_\alpha(z) := \Xi(z) - \mathrm{i}\alpha\Xi'(z)$ ($\alpha > 0$), we prove that the diagonal De Branges reproducing kernel satisfies the exact identity $K_\alpha(t-\mathrm{i}d, t-\mathrm{i}d) \equiv \frac{\alpha}{\pi}\widetilde{W}(d,t)$, bypassing the Conrey–Li (2000) global Sonine positivity obstruction for local transverse zero exclusion. We prove the Universal Transverse Square-Cascade $c_{2m-1}(t_0) = \frac{m}{(m!)^2}(\Xi^{(m)}(t_0))^2 > 0$ at any $m$-fold coalescence point and show that across any closely spaced Lehmer pair $t_\pm = t_{\mathrm{mid}} \pm \delta$, $\widetilde{W}(d,t_{\mathrm{mid}}+\tau) = \frac{1}{2}(\Xi''(t_{\mathrm{mid}}))^2(\delta^2 + \tau^2 + d^2) + \mathcal{O}((\delta+\lvert\tau\rvert+d)^3) > 0$ forms a self-healing two-dimensional sum-of-squares bowl. Finally, we prove the cross-term-free Universal Leibniz–Wronskian Identity $\widetilde{W}_{\mathcal{M}}(d,t) \equiv \lvert\mathcal{M}(t-\mathrm{i}d)\rvert^2\widetilde{W}(d,t) + \lvert\Xi(t-\mathrm{i}d)\rvert^2\widetilde{W}_{1,\mathcal{M}}(d,t)$ and the $0\%$-overshoot property $0 \le b_n^{\mathcal{E}}(X) \le 1$ of the entire exponential prime-gauge factor $E_X(s) = \exp(-\sum_{2\le d\le X}\frac{\Lambda(d)}{\ln d}d^{-s})$.
+
+* **Dedicated Repository**: [`thijsmissiaen/paper4-debranges-lehmer-cascade`](https://github.com/thijsmissiaen/paper4-debranges-lehmer-cascade)
+* **Package Directory**: [`papers/paper4-debranges-kernels-lehmer-cascade/`](./papers/paper4-debranges-kernels-lehmer-cascade/)
+* **Academic PDF Manuscript (18 pages)**: [`paper4_debranges_lehmer_cascade.pdf`](./papers/paper4-debranges-kernels-lehmer-cascade/paper/paper4_debranges_lehmer_cascade.pdf)
+* **AMS-LaTeX Source**: [`paper4_debranges_lehmer_cascade.tex`](./papers/paper4-debranges-kernels-lehmer-cascade/paper/paper4_debranges_lehmer_cascade.tex)
+* **Verification Script & Figure Generator**: [`verify_paper4_debranges_lehmer_cascade.py`](./papers/paper4-debranges-kernels-lehmer-cascade/scripts/verify_paper4_debranges_lehmer_cascade.py)
+* **AI Agent Skill & Manifest**: [`SKILL.md`](./papers/paper4-debranges-kernels-lehmer-cascade/.agents/skills/debranges-kernels-lehmer-cascade/SKILL.md) &middot; [`AGENT_SKILL_MANIFEST.json`](./papers/paper4-debranges-kernels-lehmer-cascade/AGENT_SKILL_MANIFEST.json)
+
 ## Technical Stack & Formalization
 
 * **Analysis & Computation**: Python (`mpmath`, `numpy`, `scipy`, `sympy`), PyTorch / CUDA for interval Lipschitz certifications.

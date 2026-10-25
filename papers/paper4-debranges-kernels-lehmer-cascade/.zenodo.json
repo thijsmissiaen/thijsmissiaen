@@ -1,0 +1,37 @@
+{
+  "title": "De Branges Reproducing Kernels, the Universal Transverse Square-Cascade for Lehmer Pairs, and the Leibniz-Wronskian Identity for Riemann's Xi-Function",
+  "version": "1.0.0",
+  "publication_date": "2026-10-25",
+  "upload_type": "publication",
+  "publication_type": "article",
+  "license": "MIT",
+  "Access_right": "open",
+  "creators": [
+    {
+      "name": "Missiaen, Thijs",
+      "affiliation": "Independent Researcher, Belgium",
+      "orcid": "0009-0007-3678-0810"
+    }
+  ],
+  "description": "We establish three exact structural identities linking Hilbert spaces of entire functions, critical-line zero coalescence, and multiplicative prime-sieve gauges to the transverse Wronskian of Riemann's Xi-function: (1) the exact De Branges reproducing kernel identity K_alpha(t-id, t-id) = (alpha/pi)*W_tilde(d,t) and finite Cauchy-Pick Gram matrix representation; (2) the universal transverse square-cascade c_{2m-1}(t_0) = [m/(m!)^2]*(Xi^{(m)}(t_0))^2 > 0 for arbitrary coalescence order m >= 1 and the 2D Lehmer-pair isotropic sum-of-squares bowl; and (3) the universal Leibniz-Wronskian identity W_tilde_M(d,t) = |M|^2*W_tilde(d,t) + |Xi|^2*W_tilde_{1,M}(d,t) combined with a 0%-overshoot truncated Euler-product sieve closing the Lehmer uncertainty zone under the explicit Gabcke-Olver remainder bound.",
+  "keywords": [
+    "Riemann Xi-function",
+    "De Branges reproducing kernels",
+    "Cauchy-Pick Gram matrices",
+    "transverse Wronskian",
+    "Lehmer pairs",
+    "universal square-cascade",
+    "Leibniz-Wronskian identity",
+    "Bochner-Weil positivity",
+    "Gabcke-Olver remainder bound",
+    "MSC 11M26",
+    "MSC 46E22"
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/thijsmissiaen/paper4-debranges-lehmer-cascade",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ]
+}

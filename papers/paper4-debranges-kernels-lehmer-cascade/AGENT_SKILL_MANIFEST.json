@@ -1,0 +1,28 @@
+{
+  "schema_version": "1.0.0",
+  "name": "debranges-kernels-lehmer-cascade",
+  "version": "1.0.0",
+  "title": "De Branges Reproducing Kernels, the Universal Transverse Square-Cascade for Lehmer Pairs, and the Leibniz-Wronskian Identity for Riemann's Xi-Function",
+  "description": "Exact De Branges reproducing kernel identity K_alpha(t-id, t-id) = (alpha/pi)*W_tilde(d,t), universal transverse square-cascade c_{2m-1}(t_0) = [m/(m!)^2]*(Xi^{(m)}(t_0))^2 > 0 for order-m critical-line zero coalescence and 2D Lehmer-pair sum-of-squares bowls, and universal Leibniz-Wronskian identity with 0%-overshoot truncated Euler-product sieves closing the Lehmer uncertainty zone.",
+  "author": {
+    "name": "Thijs Missiaen",
+    "email": "thijs.missiaen@gmail.com",
+    "affiliation": "Independent Researcher, Belgium",
+    "orcid": "0009-0007-3678-0810"
+  },
+  "repository": "https://github.com/thijsmissiaen/paper4-debranges-lehmer-cascade",
+  "license": "MIT",
+  "msc_2020": ["11M26", "46E22", "30D15", "11N36", "41A60"],
+  "skill_entry": ".agents/skills/debranges-kernels-lehmer-cascade/SKILL.md",
+  "artifacts": {
+    "paper_tex": "paper/paper4_debranges_lehmer_cascade.tex",
+    "paper_pdf": "paper/paper4_debranges_lehmer_cascade.pdf",
+    "verification_script": "scripts/verify_paper4_debranges_lehmer_cascade.py",
+    "figures": [
+      "paper/figures/fig1_debranges_kernel_and_lehmer_cascade.pdf",
+      "paper/figures/fig1_debranges_kernel_and_lehmer_cascade.png",
+      "paper/figures/fig2_leibniz_wronskian_and_gabcke_closure.pdf",
+      "paper/figures/fig2_leibniz_wronskian_and_gabcke_closure.png"
+    ]
+  }
+}

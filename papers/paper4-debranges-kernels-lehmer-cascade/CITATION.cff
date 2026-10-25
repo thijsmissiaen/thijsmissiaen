@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this publication, mathematical proofs, verification suite, or AI agent skill in your research, please cite it using the metadata below."
+title: "De Branges Reproducing Kernels, the Universal Transverse Square-Cascade for Lehmer Pairs, and the Leibniz-Wronskian Identity for Riemann's Xi-Function"
+type: software
+version: "1.0.0"
+date-released: "2026-10-25"
+license: MIT
+repository-code: "https://github.com/thijsmissiaen/paper4-debranges-lehmer-cascade"
+url: "https://github.com/thijsmissiaen/paper4-debranges-lehmer-cascade"
+authors:
+  - family-names: "Missiaen"
+    given-names: "Thijs"
+    email: "thijs.missiaen@gmail.com"
+    affiliation: "Independent Researcher, Belgium"
+    orcid: "https://orcid.org/0009-0007-3678-0810"
+keywords:
+  - "Riemann Xi-function"
+  - "De Branges reproducing kernels"
+  - "Cauchy-Pick Gram matrices"
+  - "transverse Wronskian"
+  - "Lehmer pairs"
+  - "universal square-cascade"
+  - "Leibniz-Wronskian identity"
+  - "Bochner-Weil positivity"
+  - "Gabcke-Olver remainder bound"
+abstract: >-
+  We establish three exact structural identities linking Hilbert spaces of entire
+  functions, critical-line zero coalescence, and multiplicative prime-sieve gauges
+  to the transverse Wronskian of Riemann's Xi-function. First, for the linear
+  Hermite-Biehler family E_alpha(z) = Xi(z) - i*alpha*Xi'(z), the diagonal De Branges
+  reproducing kernel satisfies K_alpha(t-id, t-id) = (alpha/pi)*W_tilde(d,t)
+  everywhere in the complex plane. Second, at any critical-line zero of multiplicity
+  m >= 1, all lower transverse dipole moments c_1(t_0), ..., c_{2m-3}(t_0) vanish
+  while the leading coefficient collapses to the pure square
+  c_{2m-1}(t_0) = [m/(m!)^2]*(Xi^{(m)}(t_0))^2 > 0, inducing a two-dimensional
+  isotropic sum-of-squares bowl across any Lehmer pair. Third, for any real-analytic
+  gauge multiplier M(z), we prove the universal Leibniz-Wronskian identity and combine
+  it with a 0%-overshoot truncated Euler-product sieve to close the Lehmer uncertainty
+  zone under the explicit Gabcke-Olver remainder bound.
