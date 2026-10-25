@@ -42,6 +42,17 @@ We prove that the transverse Wronskian $W(d,t) = \frac{1}{2}\partial_d\lvert\Xi(
 * **Verification Script & Figure Generator**: [`verify_paper2_parity_reduced_wronskian.py`](./papers/paper2-parity-reduced-wronskian-certification/scripts/verify_paper2_parity_reduced_wronskian.py)
 * **AI Agent Skill & Manifest**: [`SKILL.md`](./papers/paper2-parity-reduced-wronskian-certification/.agents/skills/parity-reduced-wronskian-xi/SKILL.md) &middot; [`AGENT_SKILL_MANIFEST.json`](./papers/paper2-parity-reduced-wronskian-certification/AGENT_SKILL_MANIFEST.json)
 
+### Paper 3: Harmonic Nodal Chambers, Parabolic Zero-Curve Curvature, and the Transverse Integral Law for Riemann's $\Xi$-Function
+
+Decomposing $\Xi(t-\mathrm{i}d) = R(d,t) + \mathrm{i}I(d,t)$ into its coupled harmonic potentials ($\Delta R = \Delta I = 0$), we prove that the imaginary zero loci $\Gamma_k$ bifurcating orthogonally from the non-degenerate critical-line extrema $\tau_k$ partition the half-strip $d > 0$ into harmonic nodal chambers $\Omega_k$ along whose bounding walls $\lvert R\rvert$ is strictly monotonically increasing with arc length ($\frac{\mathrm{d}\lvert R\rvert}{\mathrm{d}s} = \lvert\nabla I\rvert = \lvert\Xi'(z)\rvert > 0$). We establish the closed-form parabolic vertex curvature $\kappa(\gamma_k) = \frac{\Xi''(\gamma_k)}{\Xi'(\gamma_k)} = -\mathrm{Im}\bigl(2g_1(\frac{1}{2}+\mathrm{i}\gamma_k) + \frac{\zeta''(\frac{1}{2}+\mathrm{i}\gamma_k)}{\zeta'(\frac{1}{2}+\mathrm{i}\gamma_k)}\bigr)$ of the real zero curves $\mathcal{R}_k$ and prove the Transverse Integral Law, showing that the weighted integral operator $\frac{2}{d^2}\int_0^d u(\cdot)\,\mathrm{d}u$ acts as the hyperbolic low-pass filter $\mathcal{F}_{\mathrm{int}}(2dy) = \frac{\tanh(dy)}{dy} \in (0,1)$ and locks the ground-state energy into the $90^\circ$ phase-shifted pure squares $\Xi(t)^2 + d^2(\Xi'(t))^2$.
+
+* **Dedicated Repository**: [`thijsmissiaen/paper3-harmonic-nodal-chambers`](https://github.com/thijsmissiaen/paper3-harmonic-nodal-chambers)
+* **Package Directory**: [`papers/paper3-harmonic-chladni-nodal-chambers/`](./papers/paper3-harmonic-chladni-nodal-chambers/)
+* **Academic PDF Manuscript (16 pages)**: [`paper3_harmonic_nodal_chambers.pdf`](./papers/paper3-harmonic-chladni-nodal-chambers/paper/paper3_harmonic_nodal_chambers.pdf)
+* **AMS-LaTeX Source**: [`paper3_harmonic_nodal_chambers.tex`](./papers/paper3-harmonic-chladni-nodal-chambers/paper/paper3_harmonic_nodal_chambers.tex)
+* **Verification Script & Figure Generator**: [`verify_paper3_harmonic_nodal_chambers.py`](./papers/paper3-harmonic-chladni-nodal-chambers/scripts/verify_paper3_harmonic_nodal_chambers.py)
+* **AI Agent Skill & Manifest**: [`SKILL.md`](./papers/paper3-harmonic-chladni-nodal-chambers/.agents/skills/harmonic-nodal-chambers-xi/SKILL.md) &middot; [`AGENT_SKILL_MANIFEST.json`](./papers/paper3-harmonic-chladni-nodal-chambers/AGENT_SKILL_MANIFEST.json)
+
 ## Technical Stack & Formalization
 
 * **Analysis & Computation**: Python (`mpmath`, `numpy`, `scipy`, `sympy`), PyTorch / CUDA for interval Lipschitz certifications.

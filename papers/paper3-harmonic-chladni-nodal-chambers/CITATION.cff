@@ -1,0 +1,40 @@
+cff-version: 1.2.0
+message: "If you use this mathematical software, harmonic nodal chamber proofs, or verification suite in your research, please cite it using the metadata below."
+type: article
+title: "Harmonic Nodal Chambers, Parabolic Zero-Curve Curvature, and the Transverse Integral Law for Riemann's Xi-Function"
+authors:
+  - family-names: "Missiaen"
+    given-names: "Thijs"
+    orcid: "https://orcid.org/0009-0007-3678-0810"
+    email: "thijs.missiaen@gmail.com"
+version: "1.0.0"
+date-released: "2026-10-25"
+license: "MIT"
+url: "https://github.com/thijsmissiaen/paper3-harmonic-nodal-chambers"
+repository-code: "https://github.com/thijsmissiaen/paper3-harmonic-nodal-chambers"
+keywords:
+  - "Riemann Xi-function"
+  - "harmonic nodal chambers"
+  - "Speiser theorem"
+  - "Arias de Reyna nodal curves"
+  - "parabolic zero-curve curvature"
+  - "Lehmer pairs"
+  - "transverse integral law"
+  - "hyperbolic low-pass filter"
+abstract: >-
+  We decompose Riemann's completed function Xi(t - i*d) = xi(1/2 + d + i*t) = R(d,t) + i*I(d,t)
+  as a two-dimensional harmonic potential (Delta R = Delta I = 0) and prove that the imaginary
+  nodal walls Gamma_k = {(d,t) : I(d,t) = 0, d > 0} departing orthogonally from the critical-line
+  extrema Xi'(tau_k) = 0 partition the half-plane d > 0 into oscillation-free harmonic nodal
+  chambers Omega_k along whose boundaries |R| increases strictly with arc length s via
+  d|R|/ds = |grad I| = |Xi'(t(s) - i*d(s))| > 0. Combining implicit Cauchy-Riemann differentiation
+  with the parity-reduced Wronskian W_tilde(d,t) = W(d,t)/d, we prove that the real zero curves
+  R(d,t) = 0 depart orthogonally from each simple zero gamma_k with exact parabolic curvature
+  kappa(gamma_k) = t''(0) = Xi''(gamma_k)/Xi'(gamma_k), and establish the transverse integral law
+  |Xi(t - i*d)|^2 = |Xi(t)|^2 + 2 * int_0^d u * W_tilde(u,t) du, which transforms the kernel
+  sinc_hyp(2*u*y) into the pure square sinc_hyp^2(d*y) > 0 via the contractive hyperbolic
+  low-pass filter F_int(2*d*y) = tanh(d*y)/(d*y) in (0,1) and forces a Rolle turning point
+  d_peak in (0, d_*) at any hypothetical off-critical zero. We verify these identities across
+  the first 15 non-trivial zeros gamma_1..gamma_15, track the first 25 nodal chambers
+  Omega_1..Omega_25 to the deductive Euler-Stirling boundary d_Euler(t), and quantify the
+  resulting positivity amplification across t in [14, 1000].

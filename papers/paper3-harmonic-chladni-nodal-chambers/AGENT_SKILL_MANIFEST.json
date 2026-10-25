@@ -1,0 +1,32 @@
+{
+  "schema_version": "1.0.0",
+  "skill_name": "harmonic-nodal-chambers-xi",
+  "version": "1.0.0",
+  "title": "Harmonic Nodal Chambers, Parabolic Zero-Curve Curvature, and the Transverse Integral Law for Riemann's Xi-Function",
+  "author": {
+    "name": "Thijs Missiaen",
+    "affiliation": "Independent Researcher, Belgium",
+    "orcid": "0009-0007-3678-0810",
+    "email": "thijs.missiaen@gmail.com"
+  },
+  "msc_2020": ["11M06", "30C15", "30D15", "31A05", "65G30"],
+  "repository": "https://github.com/thijsmissiaen/paper3-harmonic-nodal-chambers",
+  "entrypoints": {
+    "skill_markdown": ".agents/skills/harmonic-nodal-chambers-xi/SKILL.md",
+    "manuscript_tex": "paper/paper3_harmonic_nodal_chambers.tex",
+    "manuscript_pdf": "paper/paper3_harmonic_nodal_chambers.pdf",
+    "verification_script": "scripts/verify_paper3_harmonic_nodal_chambers.py",
+    "figures": [
+      "paper/figures/fig1_harmonic_chladni_chambers_and_curvature.pdf",
+      "paper/figures/fig2_transverse_integral_law_and_lowpass.pdf"
+    ]
+  },
+  "capabilities": [
+    "Prove critical-line Dirichlet nodal condition I(0,t)=0, Neumann mirror condition dR/dd(0,t)=0, and zero Green boundary flux",
+    "Compute imaginary nodal wall departure curvature kappa_Gamma(tau_k) = Xi'''(tau_k)/(3*Xi''(tau_k)) at critical-line extrema tau_k",
+    "Track harmonic nodal chambers Omega_k from d=0 to the deductive Euler-Stirling right boundary d_Euler(t) and verify Cauchy-Riemann arc-length monotonicity d|R|/ds = |grad I| = |Xi'| > 0",
+    "Evaluate exact parabolic zero-curve curvature kappa(gamma_k) = Xi''(gamma_k)/Xi'(gamma_k) and quartic jet c_quart(gamma_k) across non-trivial Riemann zeros",
+    "Apply the Transverse Integral Law |Xi(t-i*d)|^2 = |Xi(t)|^2 + 2*int_0^d u*W_tilde(u,t) du, Rolle's theorem reversal, and the hyperbolic low-pass filter F_int(2*d*y) = tanh(d*y)/(d*y) in (0,1)"
+  ],
+  "verification_command": "python scripts/verify_paper3_harmonic_nodal_chambers.py"
+}

@@ -1,0 +1,42 @@
+{
+  "title": "Harmonic Nodal Chambers, Parabolic Zero-Curve Curvature, and the Transverse Integral Law for Riemann's Xi-Function",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "publication_date": "2026-10-25",
+  "version": "1.0.0",
+  "creators": [
+    {
+      "name": "Missiaen, Thijs",
+      "affiliation": "Independent Researcher, Belgium",
+      "orcid": "0009-0007-3678-0810"
+    }
+  ],
+  "description": "Analytical and topological proof package (AMS-LaTeX manuscript, 16-page compiled PDF, 50-digit mpmath and GPU verification suite, and AI-agent skill) establishing the harmonic nodal chamber partition Omega_k of the critical strip for Riemann's Xi-function, the Cauchy-Riemann arc-length monotonicity theorem d|R|/ds = |grad I| = |Xi'| > 0 along imaginary nodal walls Gamma_k, the exact parabolic zero-curve curvature formula kappa(gamma_k) = Xi''(gamma_k)/Xi'(gamma_k), and the transverse integral law |Xi(t - i*d)|^2 = |Xi(t)|^2 + 2*int_0^d u*W_tilde(u,t) du with its pure-square hyperbolic low-pass filter F_int(2*d*y) = tanh(d*y)/(d*y) in (0,1) and Rolle's theorem reversal.",
+  "access_right": "open",
+  "license": "MIT",
+  "language": "eng",
+  "keywords": [
+    "Riemann Xi-function",
+    "Harmonic nodal chambers",
+    "Speiser theorem",
+    "Arias de Reyna nodal curves",
+    "Parabolic zero-curve curvature",
+    "Lehmer pairs",
+    "Transverse integral law",
+    "Hyperbolic low-pass filter",
+    "Arbitrary-precision verification"
+  ],
+  "notes": "MSC 2020: Primary 11M06, 30C15; Secondary 30D15, 31A05, 65G30. Includes 16-page AMS-LaTeX PDF (paper/paper3_harmonic_nodal_chambers.pdf) and reproducible Python verification suite (scripts/verify_paper3_harmonic_nodal_chambers.py).",
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/thijsmissiaen/paper3-harmonic-nodal-chambers",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    },
+    {
+      "identifier": "10.5281/zenodo.23637324",
+      "relation": "references",
+      "scheme": "doi"
+    }
+  ]
+}
