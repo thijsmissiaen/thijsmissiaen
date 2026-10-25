@@ -31,6 +31,17 @@ We prove that the inner correlation integral $I(y,t)$ governing the transverse W
 * **60-Decimal Verification Script & Figure Generator**: [`verify_paper1_wigner_saddle_coalescence.py`](./papers/paper1-wigner-saddle-coalescence/scripts/verify_paper1_wigner_saddle_coalescence.py)
 * **AI Agent Skill & Manifest**: [`SKILL.md`](./papers/paper1-wigner-saddle-coalescence/.agents/skills/wigner-saddle-coalescence-xi/SKILL.md) &middot; [`AGENT_SKILL_MANIFEST.json`](./papers/paper1-wigner-saddle-coalescence/AGENT_SKILL_MANIFEST.json)
 
+### Paper 2: Parity-Reduced Transverse Wronskians, Higher Dipole Invariants, and Rigorous Continuum Certification for Riemann's $\Xi$-Function
+
+We prove that the transverse Wronskian $W(d,t) = \frac{1}{2}\partial_d\lvert\Xi(t-\mathrm{i}d)\rvert^2$ satisfies odd transverse parity $W(-d,t) = -W(d,t)$ with identically vanishing even derivatives $\partial_d^{2k}W(0,t) \equiv 0$, so that the parity-reduced Wronskian $\widetilde{W}(d,t) := W(d,t)/d$ resolves the $d \to 0^+$ boundary-layer degeneracy in the Speiser–Hinkkanen–Lagarias positivity criterion. Combining a division-free Wigner–hyperbolic integral representation governed by $\mathrm{sinc}_{\mathrm{hyp}}(dy) = \frac{\sinh(dy)}{dy} \ge 1$, closed-form Cauchy–Riemann identities for the higher transverse dipole invariants $c_{2m-1}(t)$ and non-singular partial derivatives, and dual directed-rounding interval evaluators (`mpmath.iv`), we establish strict positivity $c_1(\gamma_k), c_3(\gamma_k), c_5(\gamma_k) > 0$ across the first ten non-trivial zeros and certify the absence of off-critical zeros across $4{,}987{,}101$ continuum cells covering $[0, 0.50] \times [0, 55]$.
+
+* **Dedicated Repository**: [`thijsmissiaen/paper2-parity-reduced-wronskian`](https://github.com/thijsmissiaen/paper2-parity-reduced-wronskian)
+* **Package Directory**: [`papers/paper2-parity-reduced-wronskian-certification/`](./papers/paper2-parity-reduced-wronskian-certification/)
+* **Academic PDF Manuscript (15 pages)**: [`paper2_parity_reduced_wronskian.pdf`](./papers/paper2-parity-reduced-wronskian-certification/paper/paper2_parity_reduced_wronskian.pdf)
+* **AMS-LaTeX Source**: [`paper2_parity_reduced_wronskian.tex`](./papers/paper2-parity-reduced-wronskian-certification/paper/paper2_parity_reduced_wronskian.tex)
+* **Verification Script & Figure Generator**: [`verify_paper2_parity_reduced_wronskian.py`](./papers/paper2-parity-reduced-wronskian-certification/scripts/verify_paper2_parity_reduced_wronskian.py)
+* **AI Agent Skill & Manifest**: [`SKILL.md`](./papers/paper2-parity-reduced-wronskian-certification/.agents/skills/parity-reduced-wronskian-xi/SKILL.md) &middot; [`AGENT_SKILL_MANIFEST.json`](./papers/paper2-parity-reduced-wronskian-certification/AGENT_SKILL_MANIFEST.json)
+
 ## Technical Stack & Formalization
 
 * **Analysis & Computation**: Python (`mpmath`, `numpy`, `scipy`, `sympy`), PyTorch / CUDA for interval Lipschitz certifications.
