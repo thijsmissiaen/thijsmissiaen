@@ -16,13 +16,13 @@ Primary areas of interest include:
 
 ### Open Science & Reproducibility
 
-All analytical derivations, numerical suites, and computational models adhere to open reproducibility standards. Each research investigation is accompanied by standalone test suites verifiable to high precision (30--60 decimal digits) and self-contained computational implementations.
+All analytical derivations, numerical suites, and computational models adhere to open reproducibility standards. Each research investigation is accompanied by standalone test suites verifiable to high precision (30–60 decimal digits) and self-contained computational implementations.
 
 ## Selected Research
 
 ### Paper 1: Wigner Phase-Space Representation and Complex Saddle-Point Coalescence in the Transverse Wronskian of Riemann's $\Xi$-Function
 
-We prove that the inner correlation integral $I(y,t)$ governing the transverse Wronskian $W(d,t) = \frac{1}{2}\partial_d|\Xi(t-\mathrm{i}d)|^2$ in mirror coordinates $(x=u+v, y=u-v)$ is proportional to the quantum-mechanical Wigner phase-space distribution $\mathcal{W}_\Phi(y, 2t)$ of Riemann's Jacobi-theta kernel $\Phi(u)$, satisfying the zero-marginal identity $\int_{-\infty}^\infty I(y,\gamma_k)\,\mathrm{d}y = 2|\Xi(\gamma_k)|^2 = 0$ at every real zero $\gamma_k$. Shifting the integration contour into the holomorphic strip $|\operatorname{Im}(x)| < \pi/4$ (where the vertical Cauchy walls decay double-exponentially as $\mathcal{O}(\mathrm{e}^{9L}\exp(-2\pi\cosh(2y)\mathrm{e}^{2L}\cos(2\eta)))$) reveals a pitchfork saddle-point coalescence at $y_c(\omega)$ onto the imaginary axis $\xi_* = 0$, eliminating the $99.77\%$ real-axis Fourier cancellation.
+We prove that the inner correlation integral $I(y,t)$ governing the transverse Wronskian $W(d,t) = \frac{1}{2}\partial_d\lvert\Xi(t-\mathrm{i}d)\rvert^2$ in mirror coordinates $(x=u+v, y=u-v)$ is proportional to the quantum-mechanical Wigner phase-space distribution $\mathcal{W}_\Phi(y, 2t)$ of Riemann's Jacobi-theta kernel $\Phi(u)$, satisfying the zero-marginal identity $\int_{-\infty}^\infty I(y,\gamma_k)\,\mathrm{d}y = 2\lvert\Xi(\gamma_k)\rvert^2 = 0$ at every real zero $\gamma_k$. Shifting the integration contour into the holomorphic strip $\lvert\mathrm{Im}(x)\rvert < \pi/4$ (where the vertical Cauchy walls decay double-exponentially as $\mathcal{O}(\mathrm{e}^{9L}\exp(-2\pi\cosh(2y)\mathrm{e}^{2L}\cos(2\eta)))$) reveals a pitchfork saddle-point coalescence at $y_c(\omega)$ onto the imaginary axis $\xi_* = 0$, eliminating the $99.77\%$ real-axis Fourier cancellation.
 
 * **Package Directory**: [`papers/paper1-wigner-saddle-coalescence/`](./papers/paper1-wigner-saddle-coalescence/)
 * **Academic PDF Manuscript (13 pages)**: [`paper1_wigner_saddle_coalescence.pdf`](./papers/paper1-wigner-saddle-coalescence/paper/paper1_wigner_saddle_coalescence.pdf)
