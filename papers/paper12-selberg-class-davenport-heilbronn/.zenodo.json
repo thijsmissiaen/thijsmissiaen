@@ -1,0 +1,40 @@
+{
+  "title": "Universal Mother-Wavelet Dilation and the Phase-Independent Confocal Ellipse Identity in the Selberg Class versus Breakdown of Prime-Gauge Purity and Chladni Chamber Topology in the Davenport-Heilbronn Counterexample",
+  "description": "Paper XII of the series on the Transverse Wronskian of Riemann's Xi-Function. Resolves the classical Davenport-Heilbronn litmus test (Titchmarsh 1986, Section 10.25) by proving: (1) the Universal Mother-Wavelet Dilation Law phi_m^{(f)}(u) = a_f(m)m^{-1/2} varphi_1^{(f)}(u + 1/2 ln m) and Symmetric Branch-Damping Inequality rho_{Gamma,f}(d,t) n^{2d} < exp(-2d omega_{n,Q_f}(t)) <= 1 for any self-dual L-function of degree d_f > 0 (including zeta(s), odd Dirichlet L(s,chi_5), Ramanujan's cusp form L(s,Delta) of degree d_Delta = 2, and D_DH(s)); (2) the Universal Phase-Independent Confocal Ellipse Identity |T_n^{(f)}(d,t)|^2 - |T_n^{(f)}(0,t)|^2 = 4(|a_n|^2/n) sinh^2(d omega_{n,Q}(t)) >= 0 with d-invariant focal distance c_n^{(f)} = 2|a_n|n^{-1/2}; (3) the Exact Multiplicativity Defect Law delta_DH(m,n) = +-(1 + kappa^2) at N = 4, 6, 9, 14 in D_DH(s), proving that prime modes p in {2,3,5,7} contribute only 38.82% of |T_1^{(DH)}| at the first off-line zero (d_*, gamma_*) = (0.3085171825, 85.6993484854) whereas non-multiplicative composites n in {4,6,8} (boosted by 1/kappa^2 = 12.3914x) supply the remaining 54.03% destructive interference; and (4) the Four-Fold Diagnostic Detection of (d_*, gamma_*) via saddle recombination Xi_DH'(z_c) = 0 with reversed Cauchy-Riemann wall monotonicity d|R_DH|/ds = -|nabla I_DH| < 0, negative reduced Wronskian W_tilde_DH(d, gamma_*) < 0 on [0, d_*), the quantized Hadamard flux step Phi_Had(d; d_*) = pi*Theta(d - d_*), and the de Branges Sylvester inertia jump nu_- : 0 -> 1.",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "creators": [
+    {
+      "name": "Missiaen, Thijs",
+      "affiliation": "Independent Researcher, Belgium",
+      "orcid": "0009-0007-3678-0810"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/thijsmissiaen/paper12-selberg-class-davenport-heilbronn",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": [
+    "Selberg class",
+    "Davenport-Heilbronn function",
+    "Automorphic L-functions",
+    "Ramanujan Delta L-function",
+    "Universal mother wavelet",
+    "Confocal ellipse identity",
+    "Exponential prime-gauge factor",
+    "Chladni nodal chambers",
+    "Hadamard-Krein flux jump",
+    "De Branges Sylvester signature",
+    "MSC 11M41",
+    "MSC 11M26",
+    "MSC 11F66",
+    "MSC 30D15",
+    "MSC 46E22"
+  ],
+  "version": "1.0.0"
+}

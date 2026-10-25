@@ -1,0 +1,34 @@
+{
+  "schema_version": "1.0.0",
+  "name": "second-order-debranges-lehmer-lifting",
+  "title": "Second-Order Hermite-Biehler De Branges Kernels, the Derivative-Wronskian Splitting K_{alpha,beta} == (alpha/pi)*W_tilde_{0,1} + (alpha*beta/pi)*W_tilde_{1,2}, and d = 0 Lifting of the Lehmer Near-Coalescence Degeneracy for Riemann's Xi-Function",
+  "version": "1.0.0",
+  "author": {
+    "name": "Thijs Missiaen",
+    "affiliation": "Independent Researcher, Belgium",
+    "email": "thijs.missiaen@gmail.com",
+    "orcid": "0009-0007-3678-0810"
+  },
+  "repository": "https://github.com/thijsmissiaen/paper13-second-order-debranges-lehmer-lifting",
+  "license": "MIT",
+  "msc_2020": ["11M06", "11M26", "30D15", "46E22"],
+  "entrypoints": {
+    "skill": ".agents/skills/second-order-debranges-lehmer-lifting/SKILL.md",
+    "manuscript_tex": "paper/paper13_second_order_debranges.tex",
+    "manuscript_pdf": "paper/paper13_second_order_debranges.pdf",
+    "verification_script": "scripts/verify_paper13_second_order_debranges.py",
+    "figures": [
+      "paper/figures/fig1_second_order_debranges_and_lehmer_lifting.png",
+      "paper/figures/fig2_laplace_wigner_dipole_and_hurwitz_chains.png"
+    ]
+  },
+  "core_theorems": [
+    "Theorem 1.1: Exact Second-Order De Branges Kernel Splitting, Critical-Line Lehmer Lifting at Order d^0, Radial 4D-Laplace Dipole Recursion, and Universal Order-M Hurwitz Coalescence Law",
+    "Theorem 2.1: Exact Cross-Term-Free Second-Order De Branges Reproducing Kernel Identity K_{alpha,beta}(t-id, t-id) == (alpha/pi)*W_tilde_{0,1}(d,t) + (alpha*beta/pi)*W_tilde_{1,2}(d,t)",
+    "Proposition 2.2: Off-Diagonal Cauchy-Pick Gram Matrix Splitting G_{alpha,beta} == alpha*G^{(0,1)} + alpha*beta*G^{(1,2)} and Uniqueness of Degree M = 2",
+    "Theorem 3.1: Lifting the d = 0 Lehmer Near-Coalescence Degeneracy at Order d^0 and Global Topological Square Interlocking across gamma_k, tau_k, and nu_k",
+    "Theorem 4.1: The Radial 4D-Laplace PDE Coupling, Universal Dipole Recursion c_{2m-1}^{(1)}(t) == (1/4)*(2m(2m+1)*c_{2m+1}(t) + c_{2m-1}''(t)), Wigner Operator I^{(1)}(y,t), and Quartic Boundary Self-Damping",
+    "Theorem 4.2: General Order-M Hurwitz-De Branges Chains E_alpha(z) = P_M(-i*d_z)Xi(z) and the Universal d = 0 Coalescence Law pi*K_alpha(t_0, t_0) = +alpha_{m-1}*alpha_m*(Xi^{(m)}(t_0))^2 > 0"
+  ],
+  "verification_command": "python scripts/verify_paper13_second_order_debranges.py"
+}

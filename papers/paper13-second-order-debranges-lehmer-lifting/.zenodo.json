@@ -1,0 +1,38 @@
+{
+  "title": "Second-Order Hermite-Biehler De Branges Kernels, the Derivative-Wronskian Splitting K_{alpha,beta} == (alpha/pi)*W_tilde_{0,1} + (alpha*beta/pi)*W_tilde_{1,2}, and d = 0 Lifting of the Lehmer Near-Coalescence Degeneracy for Riemann's Xi-Function",
+  "description": "Paper XIII of the series on the Transverse Wronskian of Riemann's Xi-Function. Establishes three exact analytical theorems for the second-order (and general order-M) Hermite-Biehler de Branges structure functions E_{alpha,beta}(z) := Xi(z) - i*alpha*Xi'(z) - beta*Xi''(z) studied by Lagarias (2006), Ki (2008), and Suzuki (2011): (1) the exact cross-term-free reproducing kernel splitting K_{alpha,beta}(t - i*d, t - i*d) == (alpha/pi)*W_tilde_{0,1}(d,t) + (alpha*beta/pi)*W_tilde_{1,2}(d,t) and off-diagonal Cauchy-Pick Gram matrix decomposition G_{alpha,beta} == alpha*G^{(0,1)} + alpha*beta*G^{(1,2)}, where all three quadratic norms (|Xi|^2, alpha^2*|Xi'|^2, beta^2*|Xi''|^2) and the (0,2) cross-term -2*beta*Re(conj(Xi)*Xi'') cancel identically; (2) the critical-line limit pi*K_{alpha,beta}(t,t) == alpha*c_1(t) + alpha*beta*c_1^{(1)}(t), which lifts the d = 0 Lehmer near-coalescence degeneracy already at order d^0 via the exact pure-square floor pi*K_{alpha,beta}(t_mid, t_mid) = -alpha*Xi(t_mid)*Xi''(t_mid) + alpha*beta*(Xi''(t_mid))^2 -> +alpha*beta*(Xi''(t_0))^2 > 0 and establishes global square interlocking across zeros gamma_k, extrema tau_k, and inflection points nu_k; and (3) the radial 4D-Laplace PDE coupling W_tilde_{1,2} == (1/4)*(d_d^2 + (2/d)*d_d + d_t^2)*W_tilde_{0,1}, the universal dipole recursion c_{2m-1}^{(1)}(t) == (1/4)*(2m(2m+1)*c_{2m+1}(t) + c_{2m-1}''(t)), the Wigner phase-space operator I^{(1)}(y,t) = (1/4)*(y^2 + d_t^2)*I(y,t) with quartic O(t^{-5/2}) boundary self-damping of the slowest mode (N-1, N), and the universal order-M Hurwitz chain coalescence law pi*K_alpha(t_0, t_0) = +alpha_{m-1}*alpha_m*(Xi^{(m)}(t_0))^2 > 0.",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "creators": [
+    {
+      "name": "Missiaen, Thijs",
+      "affiliation": "Independent Researcher, Belgium",
+      "orcid": "0009-0007-3678-0810"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/thijsmissiaen/paper13-second-order-debranges-lehmer-lifting",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": [
+    "Riemann Xi-function",
+    "Transverse Wronskian",
+    "De Branges reproducing kernel",
+    "Hermite-Biehler polynomials",
+    "Lucas-Jensen derivative Wronskian",
+    "Lehmer near-coalescence lifting",
+    "Hurwitz polynomials",
+    "Wigner phase-space distribution",
+    "Radial Laplace PDE",
+    "MSC 11M06",
+    "MSC 11M26",
+    "MSC 30D15",
+    "MSC 46E22"
+  ],
+  "version": "1.0.0"
+}

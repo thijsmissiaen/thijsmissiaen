@@ -1,0 +1,39 @@
+{
+  "title": "De Bruijn-Newman Heat-Flow Velocity d(gamma_k)/d(tau)|_{tau=0} = (1/4)*kappa(gamma_k), Cross-Term-Free Gaussian Wigner Factorization, and the Transverse Dipole Evolution PDE Hierarchy for Riemann's Xi-Function",
+  "description": "Paper XI of the series on the Transverse Wronskian of Riemann's Xi-Function. Establishes three exact analytical theorems connecting the De Bruijn-Newman backwards heat deformation Phi_tau(u) = Phi(u) * exp(tau * u^2) and Xi_tau(z) to the transverse Chladni and Wigner geometry of Riemann's completed Xi-function: (1) the exact duality d(gamma_k)/d(tau)|_{tau=0} = Xi''(gamma_k)/(4*Xi'(gamma_k)) = (1/4)*kappa(gamma_k) = (1/2)*c_par(gamma_k) between initial De Bruijn-Newman zero velocity and the parabolic Chladni curvature of the real zero curve R(d,t) = 0, together with the dual extremum law d(tau_k)/d(tau)|_{tau=0} = (3/4)*kappa_Gamma(tau_k) and the closed-form evaluation of the principal-value Calogero-Moser / Dyson sum P.V. sum_{j != k} 1/(gamma_k - gamma_j) = (1/2)*kappa(gamma_k); (2) the cross-term-free Gaussian Wigner factorization G_{y,tau}(x) = exp(tau*y^2/2) * exp(tau*x^2/2) * G_y(x) in mirror coordinates x = u+v, y = u-v, preserving the holomorphic strip |Im(x)| < pi/4 and shifting the pitchfork coalescence threshold with positive velocity d(y_c)/d(tau)|_{tau=0} = eta_c / d_y L_{y_c}'(eta_c) > 0; and (3) the Universal Transverse Dipole Evolution PDE Hierarchy d_tau c_{2m-1}(t;tau) + (1/8) d_t^2 c_{2m-1}(t;tau) = (m(2m+1)/4) c_{2m+1}(t;tau) for all m >= 1, proving positive upward lift at every m-fold coalescence point and across every Lehmer pair.",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "creators": [
+    {
+      "name": "Missiaen, Thijs",
+      "affiliation": "Independent Researcher, Belgium",
+      "orcid": "0009-0007-3678-0810"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/thijsmissiaen/paper11-debruijn-newman-chladni-evolution",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": [
+    "Riemann Xi-function",
+    "De Bruijn-Newman constant",
+    "Backwards heat equation",
+    "Chladni nodal curvature",
+    "Calogero-Moser Dyson system",
+    "Wigner phase-space factorization",
+    "Pitchfork saddle-point coalescence",
+    "Transverse Wronskian",
+    "Dipole evolution PDE hierarchy",
+    "Lehmer pairs",
+    "MSC 11M06",
+    "MSC 11M26",
+    "MSC 30D15",
+    "MSC 35K05"
+  ],
+  "version": "1.0.0"
+}

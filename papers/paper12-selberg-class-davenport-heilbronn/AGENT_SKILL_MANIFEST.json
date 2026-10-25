@@ -1,0 +1,33 @@
+{
+  "schema_version": "1.0.0",
+  "name": "selberg-class-davenport-heilbronn",
+  "title": "Universal Mother-Wavelet Dilation and the Phase-Independent Confocal Ellipse Identity in the Selberg Class versus Breakdown of Prime-Gauge Purity and Chladni Chamber Topology in the Davenport-Heilbronn Counterexample",
+  "version": "1.0.0",
+  "author": {
+    "name": "Thijs Missiaen",
+    "affiliation": "Independent Researcher, Belgium",
+    "email": "thijs.missiaen@gmail.com",
+    "orcid": "0009-0007-3678-0810"
+  },
+  "repository": "https://github.com/thijsmissiaen/paper12-selberg-class-davenport-heilbronn",
+  "license": "MIT",
+  "msc_2020": ["11M41", "11M26", "11F66", "30D15", "46E22"],
+  "entrypoints": {
+    "skill": ".agents/skills/selberg-class-davenport-heilbronn/SKILL.md",
+    "manuscript_tex": "paper/paper12_selberg_davenport_heilbronn.tex",
+    "manuscript_pdf": "paper/paper12_selberg_davenport_heilbronn.pdf",
+    "verification_script": "scripts/verify_paper12_selberg_davenport_heilbronn.py",
+    "figures": [
+      "paper/figures/fig1_davenport_heilbronn_chladni_bifurcation.png",
+      "paper/figures/fig2_prime_gauge_purity_vs_hadamard_flux.png"
+    ]
+  },
+  "core_theorems": [
+    "Theorem 1.1: Universal Selberg-Class Confocal Ellipse Law versus Multiplicativity-Defect Breakdown and Four-Fold Off-Line Zero Detection in the Davenport-Heilbronn Function",
+    "Theorem 2.1: Universal Mother-Wavelet Dilation and Symmetric Branch-Damping Inequality for Degree-d_f Self-Dual L-Functions",
+    "Theorem 3.1: The Universal Phase-Independent Confocal Ellipse Identity |T_n^{(f)}(d,t)|^2 - |T_n^{(f)}(0,t)|^2 = 4(|a_n|^2/n) sinh^2(d omega_{n,Q}(t)) >= 0",
+    "Theorem 4.1: Exact Multiplicativity Defect +-(1 + kappa^2) and Breakdown of Prime-Gauge Purity at N = 4, 6 in D_DH(s)",
+    "Theorem 5.1: Four-Fold Diagnostic Detection of the Off-Line Zero (d_*, gamma_*) via Saddle Recombination, Negative Wronskian, Hadamard Flux Jump, and De Branges Sylvester Inertia"
+  ],
+  "verification_command": "python scripts/verify_paper12_selberg_davenport_heilbronn.py"
+}
