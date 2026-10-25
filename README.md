@@ -42,11 +42,11 @@ The papers in this series resolve several long-standing analytical and computati
 We prove that the inner correlation integral $I(y,t)$ governing the transverse Wronskian $W(d,t) = \frac{1}{2}\partial_d\lvert\Xi(t-\mathrm{i}d)\rvert^2$ in mirror coordinates $(x=u+v, y=u-v)$ is proportional to the quantum-mechanical Wigner phase-space distribution $\mathcal{W} _ \Phi(y, 2t)$ of Riemann's Jacobi-theta kernel $\Phi(u)$, satisfying the zero-marginal identity $\int _ {-\infty}^\infty I(y,\gamma_k) \mathrm{d}y = 2\lvert\Xi(\gamma_k)\rvert^2 = 0$ at every real zero $\gamma_k$. Shifting the integration contour into the holomorphic strip $\lvert\mathrm{Im}(x)\rvert < \pi/4$ (where the vertical Cauchy walls decay double-exponentially as $\mathcal{O}(\mathrm{e}^{9L}\exp(-2\pi\cosh(2y)\mathrm{e}^{2L}\cos(2\eta)){}$) reveals a pitchfork saddle-point coalescence at $y_c(\omega)$ onto the imaginary axis $\xi _ {\star} = 0$, eliminating the 99.77% real-axis Fourier cancellation.
 
 * **DOI (Zenodo / CERN)**: [`10.5281/zenodo.23637324`](https://doi.org/10.5281/zenodo.23637324)
-* **Package Directory**: [`papers/paper1-wigner-saddle-coalescence/`](./papers/paper1-wigner-saddle-coalescence/)
-* **Academic PDF Manuscript (13 pages)**: [`paper1_wigner_saddle_coalescence.pdf`](./papers/paper1-wigner-saddle-coalescence/paper/paper1_wigner_saddle_coalescence.pdf)
-* **AMS-LaTeX Source**: [`paper1_wigner_saddle_coalescence.tex`](./papers/paper1-wigner-saddle-coalescence/paper/paper1_wigner_saddle_coalescence.tex)
-* **60-Decimal Verification Script & Figure Generator**: [`verify_paper1_wigner_saddle_coalescence.py`](./papers/paper1-wigner-saddle-coalescence/scripts/verify_paper1_wigner_saddle_coalescence.py)
-* **AI Agent Skill & Manifest**: [`SKILL.md`](./papers/paper1-wigner-saddle-coalescence/.agents/skills/wigner-saddle-coalescence-xi/SKILL.md) &middot; [`AGENT_SKILL_MANIFEST.json`](./papers/paper1-wigner-saddle-coalescence/AGENT_SKILL_MANIFEST.json)
+* **Package Directory**: [`papers/paper01-wigner-saddle-coalescence/`](./papers/paper01-wigner-saddle-coalescence/)
+* **Academic PDF Manuscript (13 pages)**: [`paper1_wigner_saddle_coalescence.pdf`](./papers/paper01-wigner-saddle-coalescence/paper/paper1_wigner_saddle_coalescence.pdf)
+* **AMS-LaTeX Source**: [`paper1_wigner_saddle_coalescence.tex`](./papers/paper01-wigner-saddle-coalescence/paper/paper1_wigner_saddle_coalescence.tex)
+* **60-Decimal Verification Script & Figure Generator**: [`verify_paper1_wigner_saddle_coalescence.py`](./papers/paper01-wigner-saddle-coalescence/scripts/verify_paper1_wigner_saddle_coalescence.py)
+* **AI Agent Skill & Manifest**: [`SKILL.md`](./papers/paper01-wigner-saddle-coalescence/.agents/skills/wigner-saddle-coalescence-xi/SKILL.md) &middot; [`AGENT_SKILL_MANIFEST.json`](./papers/paper01-wigner-saddle-coalescence/AGENT_SKILL_MANIFEST.json)
 
 ### Paper 2: Parity-Reduced Transverse Wronskians, Higher Dipole Invariants, and Rigorous Continuum Certification for Riemann's $\Xi$-Function
 
@@ -54,11 +54,11 @@ We prove that the transverse Wronskian $W(d,t) = \frac{1}{2}\partial_d\lvert\Xi(
 
 * **DOI (Zenodo / CERN)**: [`10.5281/zenodo.23641698`](https://doi.org/10.5281/zenodo.23641698)
 * **Dedicated Repository**: [`thijsmissiaen/paper2-parity-reduced-wronskian`](https://github.com/thijsmissiaen/paper2-parity-reduced-wronskian)
-* **Package Directory**: [`papers/paper2-parity-reduced-wronskian-certification/`](./papers/paper2-parity-reduced-wronskian-certification/)
-* **Academic PDF Manuscript (15 pages)**: [`paper2_parity_reduced_wronskian.pdf`](./papers/paper2-parity-reduced-wronskian-certification/paper/paper2_parity_reduced_wronskian.pdf)
-* **AMS-LaTeX Source**: [`paper2_parity_reduced_wronskian.tex`](./papers/paper2-parity-reduced-wronskian-certification/paper/paper2_parity_reduced_wronskian.tex)
-* **Verification Script & Figure Generator**: [`verify_paper2_parity_reduced_wronskian.py`](./papers/paper2-parity-reduced-wronskian-certification/scripts/verify_paper2_parity_reduced_wronskian.py)
-* **AI Agent Skill & Manifest**: [`SKILL.md`](./papers/paper2-parity-reduced-wronskian-certification/.agents/skills/parity-reduced-wronskian-xi/SKILL.md) &middot; [`AGENT_SKILL_MANIFEST.json`](./papers/paper2-parity-reduced-wronskian-certification/AGENT_SKILL_MANIFEST.json)
+* **Package Directory**: [`papers/paper02-parity-reduced-wronskian-certification/`](./papers/paper02-parity-reduced-wronskian-certification/)
+* **Academic PDF Manuscript (15 pages)**: [`paper2_parity_reduced_wronskian.pdf`](./papers/paper02-parity-reduced-wronskian-certification/paper/paper2_parity_reduced_wronskian.pdf)
+* **AMS-LaTeX Source**: [`paper2_parity_reduced_wronskian.tex`](./papers/paper02-parity-reduced-wronskian-certification/paper/paper2_parity_reduced_wronskian.tex)
+* **Verification Script & Figure Generator**: [`verify_paper2_parity_reduced_wronskian.py`](./papers/paper02-parity-reduced-wronskian-certification/scripts/verify_paper2_parity_reduced_wronskian.py)
+* **AI Agent Skill & Manifest**: [`SKILL.md`](./papers/paper02-parity-reduced-wronskian-certification/.agents/skills/parity-reduced-wronskian-xi/SKILL.md) &middot; [`AGENT_SKILL_MANIFEST.json`](./papers/paper02-parity-reduced-wronskian-certification/AGENT_SKILL_MANIFEST.json)
 
 ### Paper 3: Harmonic Nodal Chambers, Parabolic Zero-Curve Curvature, and the Transverse Integral Law for Riemann's $\Xi$-Function
 
@@ -66,11 +66,11 @@ Decomposing $\Xi(t-\mathrm{i}d) = R(d,t) + \mathrm{i}I(d,t)$ into its coupled ha
 
 * **DOI (Zenodo / CERN)**: [`10.5281/zenodo.23641701`](https://doi.org/10.5281/zenodo.23641701)
 * **Dedicated Repository**: [`thijsmissiaen/paper3-harmonic-nodal-chambers`](https://github.com/thijsmissiaen/paper3-harmonic-nodal-chambers)
-* **Package Directory**: [`papers/paper3-harmonic-chladni-nodal-chambers/`](./papers/paper3-harmonic-chladni-nodal-chambers/)
-* **Academic PDF Manuscript (16 pages)**: [`paper3_harmonic_nodal_chambers.pdf`](./papers/paper3-harmonic-chladni-nodal-chambers/paper/paper3_harmonic_nodal_chambers.pdf)
-* **AMS-LaTeX Source**: [`paper3_harmonic_nodal_chambers.tex`](./papers/paper3-harmonic-chladni-nodal-chambers/paper/paper3_harmonic_nodal_chambers.tex)
-* **Verification Script & Figure Generator**: [`verify_paper3_harmonic_nodal_chambers.py`](./papers/paper3-harmonic-chladni-nodal-chambers/scripts/verify_paper3_harmonic_nodal_chambers.py)
-* **AI Agent Skill & Manifest**: [`SKILL.md`](./papers/paper3-harmonic-chladni-nodal-chambers/.agents/skills/harmonic-nodal-chambers-xi/SKILL.md) &middot; [`AGENT_SKILL_MANIFEST.json`](./papers/paper3-harmonic-chladni-nodal-chambers/AGENT_SKILL_MANIFEST.json)
+* **Package Directory**: [`papers/paper03-harmonic-chladni-nodal-chambers/`](./papers/paper03-harmonic-chladni-nodal-chambers/)
+* **Academic PDF Manuscript (16 pages)**: [`paper3_harmonic_nodal_chambers.pdf`](./papers/paper03-harmonic-chladni-nodal-chambers/paper/paper3_harmonic_nodal_chambers.pdf)
+* **AMS-LaTeX Source**: [`paper3_harmonic_nodal_chambers.tex`](./papers/paper03-harmonic-chladni-nodal-chambers/paper/paper3_harmonic_nodal_chambers.tex)
+* **Verification Script & Figure Generator**: [`verify_paper3_harmonic_nodal_chambers.py`](./papers/paper03-harmonic-chladni-nodal-chambers/scripts/verify_paper3_harmonic_nodal_chambers.py)
+* **AI Agent Skill & Manifest**: [`SKILL.md`](./papers/paper03-harmonic-chladni-nodal-chambers/.agents/skills/harmonic-nodal-chambers-xi/SKILL.md) &middot; [`AGENT_SKILL_MANIFEST.json`](./papers/paper03-harmonic-chladni-nodal-chambers/AGENT_SKILL_MANIFEST.json)
 
 ### Paper 4: De Branges Reproducing Kernels, the Universal Transverse Square-Cascade for Lehmer Pairs, and the Leibniz–Wronskian Identity for Riemann's $\Xi$-Function
 
@@ -78,11 +78,11 @@ For the linear Hermite–Biehler candidate family $E _ \alpha(z) := \Xi(z) - \ma
 
 * **DOI (Zenodo / CERN)**: [`10.5281/zenodo.23641702`](https://doi.org/10.5281/zenodo.23641702)
 * **Dedicated Repository**: [`thijsmissiaen/paper4-debranges-lehmer-cascade`](https://github.com/thijsmissiaen/paper4-debranges-lehmer-cascade)
-* **Package Directory**: [`papers/paper4-debranges-kernels-lehmer-cascade/`](./papers/paper4-debranges-kernels-lehmer-cascade/)
-* **Academic PDF Manuscript (18 pages)**: [`paper4_debranges_lehmer_cascade.pdf`](./papers/paper4-debranges-kernels-lehmer-cascade/paper/paper4_debranges_lehmer_cascade.pdf)
-* **AMS-LaTeX Source**: [`paper4_debranges_lehmer_cascade.tex`](./papers/paper4-debranges-kernels-lehmer-cascade/paper/paper4_debranges_lehmer_cascade.tex)
-* **Verification Script & Figure Generator**: [`verify_paper4_debranges_lehmer_cascade.py`](./papers/paper4-debranges-kernels-lehmer-cascade/scripts/verify_paper4_debranges_lehmer_cascade.py)
-* **AI Agent Skill & Manifest**: [`SKILL.md`](./papers/paper4-debranges-kernels-lehmer-cascade/.agents/skills/debranges-kernels-lehmer-cascade/SKILL.md) &middot; [`AGENT_SKILL_MANIFEST.json`](./papers/paper4-debranges-kernels-lehmer-cascade/AGENT_SKILL_MANIFEST.json)
+* **Package Directory**: [`papers/paper04-debranges-kernels-lehmer-cascade/`](./papers/paper04-debranges-kernels-lehmer-cascade/)
+* **Academic PDF Manuscript (18 pages)**: [`paper4_debranges_lehmer_cascade.pdf`](./papers/paper04-debranges-kernels-lehmer-cascade/paper/paper4_debranges_lehmer_cascade.pdf)
+* **AMS-LaTeX Source**: [`paper4_debranges_lehmer_cascade.tex`](./papers/paper04-debranges-kernels-lehmer-cascade/paper/paper4_debranges_lehmer_cascade.tex)
+* **Verification Script & Figure Generator**: [`verify_paper4_debranges_lehmer_cascade.py`](./papers/paper04-debranges-kernels-lehmer-cascade/scripts/verify_paper4_debranges_lehmer_cascade.py)
+* **AI Agent Skill & Manifest**: [`SKILL.md`](./papers/paper04-debranges-kernels-lehmer-cascade/.agents/skills/debranges-kernels-lehmer-cascade/SKILL.md) &middot; [`AGENT_SKILL_MANIFEST.json`](./papers/paper04-debranges-kernels-lehmer-cascade/AGENT_SKILL_MANIFEST.json)
 
 ### Paper 5: Universal Mother-Wavelet Decomposition of the Jacobi–Riemann Kernel, Smooth Jacobi–Sinh Shells, and Explicit Saddle-Point Remainder Bounds for Riemann's $\Xi$-Function
 
@@ -90,55 +90,55 @@ We prove that every shell $\phi_m(u) = m^{-1/2}\varphi_1(u + \frac{1}{2}\ln m)$ 
 
 * **DOI (Zenodo / CERN)**: [`10.5281/zenodo.23641708`](https://doi.org/10.5281/zenodo.23641708)
 * **Dedicated Repository**: [`thijsmissiaen/paper5-mother-wavelet-gabcke-bounds`](https://github.com/thijsmissiaen/paper5-mother-wavelet-gabcke-bounds)
-* **Package Directory**: [`papers/paper5-mother-wavelet-gabcke-bounds/`](./papers/paper5-mother-wavelet-gabcke-bounds/)
-* **Academic PDF Manuscript (16 pages)**: [`paper5_mother_wavelet_gabcke_bounds.pdf`](./papers/paper5-mother-wavelet-gabcke-bounds/paper/paper5_mother_wavelet_gabcke_bounds.pdf)
-* **AMS-LaTeX Source**: [`paper5_mother_wavelet_gabcke_bounds.tex`](./papers/paper5-mother-wavelet-gabcke-bounds/paper/paper5_mother_wavelet_gabcke_bounds.tex)
-* **Verification Script & Figure Generator**: [`verify_paper5_mother_wavelet_gabcke_bounds.py`](./papers/paper5-mother-wavelet-gabcke-bounds/scripts/verify_paper5_mother_wavelet_gabcke_bounds.py)
-* **AI Agent Skill & Manifest**: [`SKILL.md`](./papers/paper5-mother-wavelet-gabcke-bounds/.agents/skills/mother-wavelet-gabcke-bounds/SKILL.md) &middot; [`AGENT_SKILL_MANIFEST.json`](./papers/paper5-mother-wavelet-gabcke-bounds/AGENT_SKILL_MANIFEST.json)
+* **Package Directory**: [`papers/paper05-mother-wavelet-gabcke-bounds/`](./papers/paper05-mother-wavelet-gabcke-bounds/)
+* **Academic PDF Manuscript (16 pages)**: [`paper5_mother_wavelet_gabcke_bounds.pdf`](./papers/paper05-mother-wavelet-gabcke-bounds/paper/paper5_mother_wavelet_gabcke_bounds.pdf)
+* **AMS-LaTeX Source**: [`paper5_mother_wavelet_gabcke_bounds.tex`](./papers/paper05-mother-wavelet-gabcke-bounds/paper/paper5_mother_wavelet_gabcke_bounds.tex)
+* **Verification Script & Figure Generator**: [`verify_paper5_mother_wavelet_gabcke_bounds.py`](./papers/paper05-mother-wavelet-gabcke-bounds/scripts/verify_paper5_mother_wavelet_gabcke_bounds.py)
+* **AI Agent Skill & Manifest**: [`SKILL.md`](./papers/paper05-mother-wavelet-gabcke-bounds/.agents/skills/mother-wavelet-gabcke-bounds/SKILL.md) &middot; [`AGENT_SKILL_MANIFEST.json`](./papers/paper05-mother-wavelet-gabcke-bounds/AGENT_SKILL_MANIFEST.json)
 
 ### Paper 6: The Sieved Mirror Kernel $\Phi_X(u)$, the Zero-Free Exponential Prime-Gauge Factor $\mathcal{E} _ X(z)$, and Quadratic Prime-Power Purity on $(X, X^2]$ for Riemann's $\Xi$-Function
 
 We couple the universal mother-wavelet decomposition $\Phi(u) = \sum _ {m=1}^\infty m^{-1/2}\varphi_1(u + \frac{1}{2}\ln m)$ with finite-divisor Euler-product sieving for the transverse Wronskian $W(d,t) = \frac{1}{2}\partial_d\lvert\Xi(t-\mathrm{i}d)\rvert^2$. We prove that multiplying $\Xi(z)$ by a self-mirrored Dirichlet polynomial $\mathcal{M} _ X(z) = M_X(\frac{1}{2}+\mathrm{i}z)M_X(\frac{1}{2}-\mathrm{i}z)$ corresponds in the $u$-domain to an even convolution kernel $\Phi _ X(u)$ preserving the holomorphic strip $\lvert\mathrm{Im}(u)\rvert < \frac{\pi}{8}$, while replacing $M_X(s)$ by the entire, zero-free exponential prime-gauge factor $E_X(s) = \exp(-\sum _ {n=2}^{\lfloor X\rfloor}\frac{\Lambda(n)}{\ln n}n^{-s})$ eliminates all parasitic mollifier zeros and establishes exact quadratic prime-power purity $b_N^{\mathcal{E}}(X) \equiv \frac{\Lambda(N)}{\ln N}$ across $\lfloor X\rfloor < N < (\lfloor X\rfloor + 1)^2$ with 0% overshoot ($0 \le b_N^{\mathcal{E}}(X) \le 1$). Furthermore, we derive the negative hyperbolic mirror weight $w_n^{\ast}(d_0) = -(n^{2d_0}-1)^{-1}$ that annihilates prime-power oscillations on $d = d_0$ with zero waterbed tail for $n > X$, prove power-law $L^2$ diagonal damping $\frac{X^{-2d}}{2d\ln X}$ and universal Sub-Selberg closure $\theta _ {\mathcal{E}}^{\mathrm{sq}}(d,t) < \frac{1}{2}$ across the critical strip, and establish the finite-divisor truncation identity on $[1, N(t)]$ alongside the shifted outer factorization of $\mathcal{E} _ {X,\kappa}(z)$.
 
 * **Dedicated Repository**: [`thijsmissiaen/paper6-sieved-mirror-prime-gauge`](https://github.com/thijsmissiaen/paper6-sieved-mirror-prime-gauge)
-* **Package Directory**: [`papers/paper6-sieved-mirror-kernel-prime-gauge/`](./papers/paper6-sieved-mirror-kernel-prime-gauge/)
-* **Academic PDF Manuscript (17 pages)**: [`paper6_sieved_mirror_prime_gauge.pdf`](./papers/paper6-sieved-mirror-kernel-prime-gauge/paper/paper6_sieved_mirror_prime_gauge.pdf)
-* **AMS-LaTeX Source**: [`paper6_sieved_mirror_prime_gauge.tex`](./papers/paper6-sieved-mirror-kernel-prime-gauge/paper/paper6_sieved_mirror_prime_gauge.tex)
-* **Verification Script & Figure Generator**: [`verify_paper6_sieved_mirror_prime_gauge.py`](./papers/paper6-sieved-mirror-kernel-prime-gauge/scripts/verify_paper6_sieved_mirror_prime_gauge.py)
-* **AI Agent Skill & Manifest**: [`SKILL.md`](./papers/paper6-sieved-mirror-kernel-prime-gauge/.agents/skills/sieved-mirror-prime-gauge/SKILL.md) &middot; [`AGENT_SKILL_MANIFEST.json`](./papers/paper6-sieved-mirror-kernel-prime-gauge/AGENT_SKILL_MANIFEST.json)
+* **Package Directory**: [`papers/paper06-sieved-mirror-kernel-prime-gauge/`](./papers/paper06-sieved-mirror-kernel-prime-gauge/)
+* **Academic PDF Manuscript (17 pages)**: [`paper6_sieved_mirror_prime_gauge.pdf`](./papers/paper06-sieved-mirror-kernel-prime-gauge/paper/paper6_sieved_mirror_prime_gauge.pdf)
+* **AMS-LaTeX Source**: [`paper6_sieved_mirror_prime_gauge.tex`](./papers/paper06-sieved-mirror-kernel-prime-gauge/paper/paper6_sieved_mirror_prime_gauge.tex)
+* **Verification Script & Figure Generator**: [`verify_paper6_sieved_mirror_prime_gauge.py`](./papers/paper06-sieved-mirror-kernel-prime-gauge/scripts/verify_paper6_sieved_mirror_prime_gauge.py)
+* **AI Agent Skill & Manifest**: [`SKILL.md`](./papers/paper06-sieved-mirror-kernel-prime-gauge/.agents/skills/sieved-mirror-prime-gauge/SKILL.md) &middot; [`AGENT_SKILL_MANIFEST.json`](./papers/paper06-sieved-mirror-kernel-prime-gauge/AGENT_SKILL_MANIFEST.json)
 
 ### Paper 7: The Mirror-Paired Hadamard Square-Denominator Identity, the Universal Conservation Law $\int _ {\mathbb{R}} K \mathrm{d}u \equiv \pi$, and Stationary Trudgian Variation in the Critical Strip
 
 We establish an exact dual representation linking the normalized transverse Wronskian $\widehat{W}(d,t) = W(d,t)/\lvert\Xi(t-\mathrm{i}d)\rvert^2$ of Riemann's $\Xi$-function to Fejér–Lukács pure-square trigonometric multiplets $\mathcal{S} _ {\pm}(d,t)$—resolving the classical de la Vallée Poussin $\sigma = 1$ ($d = \frac{1}{2}$) pole barrier—on the Euler-product side and to mirror-paired Hadamard zero sums on the spectral side. Pairing each nontrivial zero $\rho = \frac{1}{2} + d _ \rho + \mathrm{i}\gamma _ \rho$ with its functional-equation mirror $1 - \bar{\rho} = \frac{1}{2} - d _ \rho + \mathrm{i}\gamma _ \rho$ yields the square-denominator kernel $K(d, d _ \rho, u) = d(d^2 - d _ \rho^2 + u^2)/[((d^2 - d _ \rho^2 + u^2)^2 + 4u^2 d _ \rho^2)]$, which satisfies the universal Guinand–Weil / Hadamard mirror-pair conservation law $\int _ {-\infty}^{\infty} K(d, d _ \rho, u) \mathrm{d}u \equiv \pi$ for all $d > \lvert d _ \rho\rvert$ and admits on $d \ge \frac{1}{2}$ the hypothesis-free minorant $K _ {\min}(d,u) := K(d, \frac{1}{2}, u)$ throughout $\lvert u\rvert \ge H _ {\min}(d) = \sqrt{(d^2 - 1/4)/3}$. Integrating by parts against the Riemann–von Mangoldt decomposition $\mathrm{d}N(\gamma) = \frac{1}{2\pi}\ln(\gamma/2\pi) \mathrm{d}\gamma + \mathrm{d}S(\gamma)$ with Trudgian's explicit bound $\lvert S(T)\rvert \le B_S(T)$ reveals that $\partial_H K _ {\min}(d,H) < 0$ factors out identically from stationarity, pinning the optimal window half-width to the $d$-independent trajectory $H _ {\mathrm{opt}}(kt) \equiv 2\pi B_S(kt)/\ln(kt/2\pi) \to 2\pi(0.112) = 0.70371675\dots$.
 
 * **Dedicated Repository**: [`thijsmissiaen/paper7-mirror-hadamard-variation`](https://github.com/thijsmissiaen/paper7-mirror-hadamard-variation)
-* **Package Directory**: [`papers/paper7-mirror-hadamard-variational-law/`](./papers/paper7-mirror-hadamard-variational-law/)
-* **Academic PDF Manuscript (18 pages)**: [`paper7_mirror_hadamard_variation.pdf`](./papers/paper7-mirror-hadamard-variational-law/paper/paper7_mirror_hadamard_variation.pdf)
-* **AMS-LaTeX Source**: [`paper7_mirror_hadamard_variation.tex`](./papers/paper7-mirror-hadamard-variational-law/paper/paper7_mirror_hadamard_variation.tex)
-* **Verification Script & Figure Generator**: [`verify_paper7_mirror_hadamard_variation.py`](./papers/paper7-mirror-hadamard-variational-law/scripts/verify_paper7_mirror_hadamard_variation.py)
-* **AI Agent Skill & Manifest**: [`SKILL.md`](./papers/paper7-mirror-hadamard-variational-law/.agents/skills/mirror-hadamard-variational-law/SKILL.md) &middot; [`AGENT_SKILL_MANIFEST.json`](./papers/paper7-mirror-hadamard-variational-law/AGENT_SKILL_MANIFEST.json)
+* **Package Directory**: [`papers/paper07-mirror-hadamard-variational-law/`](./papers/paper07-mirror-hadamard-variational-law/)
+* **Academic PDF Manuscript (18 pages)**: [`paper7_mirror_hadamard_variation.pdf`](./papers/paper07-mirror-hadamard-variational-law/paper/paper7_mirror_hadamard_variation.pdf)
+* **AMS-LaTeX Source**: [`paper7_mirror_hadamard_variation.tex`](./papers/paper07-mirror-hadamard-variational-law/paper/paper7_mirror_hadamard_variation.tex)
+* **Verification Script & Figure Generator**: [`verify_paper7_mirror_hadamard_variation.py`](./papers/paper07-mirror-hadamard-variational-law/scripts/verify_paper7_mirror_hadamard_variation.py)
+* **AI Agent Skill & Manifest**: [`SKILL.md`](./papers/paper07-mirror-hadamard-variational-law/.agents/skills/mirror-hadamard-variational-law/SKILL.md) &middot; [`AGENT_SKILL_MANIFEST.json`](./papers/paper07-mirror-hadamard-variational-law/AGENT_SKILL_MANIFEST.json)
 
 ### Paper 8: Bilinear Rank-2 Factorization of Integrated Wronskian Kernels, Pure-Square Completion, and the $1+2d > 1$ Montgomery–Vaughan Exponent Jump in the Critical Strip
 
 We resolve four classical bottlenecks governing the $\binom{N(t)}{2}$ off-diagonal cross-pairs of the order-$r$ Mobius-sieved Riemann–Siegel main sum up to $N(t) = \lfloor\sqrt{t/2\pi}\rfloor$. Integrating the parity-reduced Wronskian transversely over $u \in [0,d]$ factors the coupled hyperbolic mode weight into the exact bilinear rank-2 identity $w _ {mn}^{\mathrm{int}}(d,t) \equiv \frac{2}{d^2}(\cosh(d\omega_m)\cosh(d\omega_n)-1)$, collapsing $\mathcal{O}(N(t)^2)$ double sums into $\mathcal{O}(N(t))$ prefix sums and revealing a sharp Euler–Maclaurin phase transition $\propto N(t)^{1-4d}(\ln N(t))^{2(r-1)}$ at $d = \frac{1}{4}$ ($\sigma = \frac{3}{4}$). Furthermore, the $-1$ lower-limit boundary terms cancel pairwise against the $d=0$ critical-line ground state, completing the $(m,n \ge 2)$ sector into the non-negative Euclidean square $+\frac{1}{d^2}\lVert\Psi _ {\ge 2}\rVert^2 \ge 0$ (eliminating the $1+\sqrt{2}$ root-isolation penalty), while passing from $L^1$ to $L^2$ via the Montgomery–Vaughan–Preissmann inequality shifts the exponent from $\frac{1}{2}+d < 1$ to $2(\frac{1}{2}+d) = 1+2d > 1$.
 
 * **Dedicated Repository**: [`thijsmissiaen/paper8-bilinear-rank2-wronskian`](https://github.com/thijsmissiaen/paper8-bilinear-rank2-wronskian)
-* **Package Directory**: [`papers/paper8-bilinear-rank2-montgomery-vaughan/`](./papers/paper8-bilinear-rank2-montgomery-vaughan/)
-* **Academic PDF Manuscript (18 pages)**: [`paper8_bilinear_rank2_wronskian.pdf`](./papers/paper8-bilinear-rank2-montgomery-vaughan/paper/paper8_bilinear_rank2_wronskian.pdf)
-* **AMS-LaTeX Source**: [`paper8_bilinear_rank2_wronskian.tex`](./papers/paper8-bilinear-rank2-montgomery-vaughan/paper/paper8_bilinear_rank2_wronskian.tex)
-* **Verification Script & Figure Generator**: [`verify_paper8_bilinear_rank2_wronskian.py`](./papers/paper8-bilinear-rank2-montgomery-vaughan/scripts/verify_paper8_bilinear_rank2_wronskian.py)
-* **AI Agent Skill & Manifest**: [`SKILL.md`](./papers/paper8-bilinear-rank2-montgomery-vaughan/.agents/skills/bilinear-rank2-wronskian/SKILL.md) &middot; [`AGENT_SKILL_MANIFEST.json`](./papers/paper8-bilinear-rank2-montgomery-vaughan/AGENT_SKILL_MANIFEST.json)
+* **Package Directory**: [`papers/paper08-bilinear-rank2-montgomery-vaughan/`](./papers/paper08-bilinear-rank2-montgomery-vaughan/)
+* **Academic PDF Manuscript (18 pages)**: [`paper8_bilinear_rank2_wronskian.pdf`](./papers/paper08-bilinear-rank2-montgomery-vaughan/paper/paper8_bilinear_rank2_wronskian.pdf)
+* **AMS-LaTeX Source**: [`paper8_bilinear_rank2_wronskian.tex`](./papers/paper08-bilinear-rank2-montgomery-vaughan/paper/paper8_bilinear_rank2_wronskian.tex)
+* **Verification Script & Figure Generator**: [`verify_paper8_bilinear_rank2_wronskian.py`](./papers/paper08-bilinear-rank2-montgomery-vaughan/scripts/verify_paper8_bilinear_rank2_wronskian.py)
+* **AI Agent Skill & Manifest**: [`SKILL.md`](./papers/paper08-bilinear-rank2-montgomery-vaughan/.agents/skills/bilinear-rank2-wronskian/SKILL.md) &middot; [`AGENT_SKILL_MANIFEST.json`](./papers/paper08-bilinear-rank2-montgomery-vaughan/AGENT_SKILL_MANIFEST.json)
 
 ### Paper 9: The Phase-Independent Confocal Ellipse Identity $\lvert T_n(d,t)\rvert^2 - \lvert T_n(0,t)\rvert^2 \equiv 4n^{-1}\sinh^2(d\omega_n)$, the Three-Part $u$-Domain Bridge Identity, and Explicit Rosser–Schoenfeld Stieltjes Bounds
 
 We establish the Three-Part $u$-Domain Bridge Identity $\frac{1}{2}\Xi(t-\mathrm{i}d)E_X(s) \equiv \mathcal{I} _ +^{\mathcal{E} _ X}(s) + E_X(s)F _ +(1-s) + \mathcal{B} _ {\mathrm{bridge}}^{\mathcal{E} _ X}(s)$ across shifted Jacobi mirror points $w = u + \frac{1}{2}\ln k = 0$, proving that each half-line shell integral $\mathcal{J} _ n(s)$ admits a closed incomplete-Gamma form decaying super-exponentially as $\mathcal{O}(\pi n^2\mathrm{e}^{-\pi n^2})$ and that the pure Wronskian excess $\cosh(d\omega_n)-1 = 2\sinh^2(\frac{1}{2}d\omega_n)$ induces $(\ln N(t))^{-3}$ horizon dilution ($\theta_c < \frac{1}{4}$). Using the exact algebraic factorization $\sinh^2(\frac{1}{2}d\omega_n)/\sinh^2(\frac{1}{2}d\omega_1) \equiv n^{-d}((1-(n/N _ \star)^d)/(1-N _ \star^{-d}))^2 \le n^{-d}$, we derive closed-form Rosser–Schoenfeld Stieltjes upper bounds across $t \in [10^8, \infty)$ without summing primes, and prove the Phase-Independent Confocal Ellipse Identity $\lvert T_n(d,t)\rvert^2 - \lvert T_n(0,t)\rvert^2 \equiv 4n^{-1}\sinh^2(d\omega_n(t)) > 0$ ($\forall\phi_n \in \mathbb{R}$) with $d$-invariant focal distance $c_n \equiv \pm 2n^{-1/2}$.
 
 * **Dedicated Repository**: [`thijsmissiaen/paper9-confocal-ellipse-synthesis`](https://github.com/thijsmissiaen/paper9-confocal-ellipse-synthesis)
-* **Package Directory**: [`papers/paper9-confocal-ellipse-bridge-synthesis/`](./papers/paper9-confocal-ellipse-bridge-synthesis/)
-* **Academic PDF Manuscript (16 pages)**: [`paper9_confocal_ellipse_synthesis.pdf`](./papers/paper9-confocal-ellipse-bridge-synthesis/paper/paper9_confocal_ellipse_synthesis.pdf)
-* **AMS-LaTeX Source**: [`paper9_confocal_ellipse_synthesis.tex`](./papers/paper9-confocal-ellipse-bridge-synthesis/paper/paper9_confocal_ellipse_synthesis.tex)
-* **Verification Script & Figure Generator**: [`verify_paper9_confocal_ellipse_synthesis.py`](./papers/paper9-confocal-ellipse-bridge-synthesis/scripts/verify_paper9_confocal_ellipse_synthesis.py)
-* **AI Agent Skill & Manifest**: [`SKILL.md`](./papers/paper9-confocal-ellipse-bridge-synthesis/.agents/skills/confocal-ellipse-bridge-synthesis/SKILL.md) &middot; [`AGENT_SKILL_MANIFEST.json`](./papers/paper9-confocal-ellipse-bridge-synthesis/AGENT_SKILL_MANIFEST.json)
+* **Package Directory**: [`papers/paper09-confocal-ellipse-bridge-synthesis/`](./papers/paper09-confocal-ellipse-bridge-synthesis/)
+* **Academic PDF Manuscript (16 pages)**: [`paper9_confocal_ellipse_synthesis.pdf`](./papers/paper09-confocal-ellipse-bridge-synthesis/paper/paper9_confocal_ellipse_synthesis.pdf)
+* **AMS-LaTeX Source**: [`paper9_confocal_ellipse_synthesis.tex`](./papers/paper09-confocal-ellipse-bridge-synthesis/paper/paper9_confocal_ellipse_synthesis.tex)
+* **Verification Script & Figure Generator**: [`verify_paper9_confocal_ellipse_synthesis.py`](./papers/paper09-confocal-ellipse-bridge-synthesis/scripts/verify_paper9_confocal_ellipse_synthesis.py)
+* **AI Agent Skill & Manifest**: [`SKILL.md`](./papers/paper09-confocal-ellipse-bridge-synthesis/.agents/skills/confocal-ellipse-bridge-synthesis/SKILL.md) &middot; [`AGENT_SKILL_MANIFEST.json`](./papers/paper09-confocal-ellipse-bridge-synthesis/AGENT_SKILL_MANIFEST.json)
 
 ### Paper 10: Beyond the Bohr–Kronecker Torus Barrier: Semiprime Phase-Locking, Quantized Hadamard–Krein Flux Defects $\pi\Theta(d - d _ {\star})$, and the Exact Chladni–Wronskian Wall Identity for Riemann's $\Xi$-Function
 
