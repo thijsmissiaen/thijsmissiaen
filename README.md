@@ -35,6 +35,8 @@ The papers in this series resolve several long-standing analytical and computati
 
 | **8** | **$\mathcal{O}(N(t)^2)$ Cross-Term Explosion, $1+\sqrt{2}$ Root Penalty & $L^1$ Barrier $\frac{1}{2}+d < 1$** | Montgomery & Vaughan (1974); Preissmann (1984); Conrey (1989) | Bilinear rank-2 factorization $w _ {mn}^{\mathrm{int}} \equiv \frac{2}{d^2}(\cosh(d\omega_m)\cosh(d\omega_n)-1)$, pure-square completion $+\frac{1}{d^2}\lVert\Psi _ {\ge 2}\rVert^2 \ge 0$, and $1+2d > 1$ $L^2$ exponent jump (**Paper 8**). |
 
+| **9** | **Phase-Dependent Riemann–Siegel Branch Interference & $\mathcal{O}(t^{1/2})$ Prime-Sum Ceiling** | Siegel (1932); Rosser & Schoenfeld (1962); Dusart (2018) | Phase-independent confocal ellipse identity $\lvert T_n(d,t)\rvert^2 - \lvert T_n(0,t)\rvert^2 \equiv 4n^{-1}\sinh^2(d\omega_n)$, three-part $u$-domain bridge ($\theta_c < \frac{1}{4}$), and explicit Stieltjes bounds on $[10^8, \infty)$ (**Paper 9**). |
+
 ## Selected Research
 
 ### Paper 1: Wigner Phase-Space Representation and Complex Saddle-Point Coalescence in the Transverse Wronskian of Riemann's $\Xi$-Function
@@ -128,6 +130,17 @@ We resolve four classical bottlenecks governing the $\binom{N(t)}{2}$ off-diagon
 * **AMS-LaTeX Source**: [`paper8_bilinear_rank2_wronskian.tex`](./papers/paper8-bilinear-rank2-montgomery-vaughan/paper/paper8_bilinear_rank2_wronskian.tex)
 * **Verification Script & Figure Generator**: [`verify_paper8_bilinear_rank2_wronskian.py`](./papers/paper8-bilinear-rank2-montgomery-vaughan/scripts/verify_paper8_bilinear_rank2_wronskian.py)
 * **AI Agent Skill & Manifest**: [`SKILL.md`](./papers/paper8-bilinear-rank2-montgomery-vaughan/.agents/skills/bilinear-rank2-wronskian/SKILL.md) &middot; [`AGENT_SKILL_MANIFEST.json`](./papers/paper8-bilinear-rank2-montgomery-vaughan/AGENT_SKILL_MANIFEST.json)
+
+### Paper 9: The Phase-Independent Confocal Ellipse Identity $\lvert T_n(d,t)\rvert^2 - \lvert T_n(0,t)\rvert^2 \equiv 4n^{-1}\sinh^2(d\omega_n)$, the Three-Part $u$-Domain Bridge Identity, and Explicit Rosser–Schoenfeld Stieltjes Bounds
+
+We establish the Three-Part $u$-Domain Bridge Identity $\frac{1}{2}\Xi(t-\mathrm{i}d)E_X(s) \equiv \mathcal{I} _ +^{\mathcal{E} _ X}(s) + E_X(s)F _ +(1-s) + \mathcal{B} _ {\mathrm{bridge}}^{\mathcal{E} _ X}(s)$ across shifted Jacobi mirror points $w = u + \frac{1}{2}\ln k = 0$, proving that each half-line shell integral $\mathcal{J} _ n(s)$ admits a closed incomplete-Gamma form decaying super-exponentially as $\mathcal{O}(\pi n^2\mathrm{e}^{-\pi n^2})$ and that the pure Wronskian excess $\cosh(d\omega_n)-1 = 2\sinh^2(\frac{1}{2}d\omega_n)$ induces $(\ln N(t))^{-3}$ horizon dilution ($\theta_c < \frac{1}{4}$). Using the exact algebraic factorization $\sinh^2(\frac{1}{2}d\omega_n)/\sinh^2(\frac{1}{2}d\omega_1) \equiv n^{-d}((1-(n/N _ \star)^d)/(1-N _ \star^{-d}))^2 \le n^{-d}$, we derive closed-form Rosser–Schoenfeld Stieltjes upper bounds across $t \in [10^8, \infty)$ without summing primes, and prove the Phase-Independent Confocal Ellipse Identity $\lvert T_n(d,t)\rvert^2 - \lvert T_n(0,t)\rvert^2 \equiv 4n^{-1}\sinh^2(d\omega_n(t)) > 0$ ($\forall\phi_n \in \mathbb{R}$) with $d$-invariant focal distance $c_n \equiv \pm 2n^{-1/2}$.
+
+* **Dedicated Repository**: [`thijsmissiaen/paper9-confocal-ellipse-synthesis`](https://github.com/thijsmissiaen/paper9-confocal-ellipse-synthesis)
+* **Package Directory**: [`papers/paper9-confocal-ellipse-bridge-synthesis/`](./papers/paper9-confocal-ellipse-bridge-synthesis/)
+* **Academic PDF Manuscript (16 pages)**: [`paper9_confocal_ellipse_synthesis.pdf`](./papers/paper9-confocal-ellipse-bridge-synthesis/paper/paper9_confocal_ellipse_synthesis.pdf)
+* **AMS-LaTeX Source**: [`paper9_confocal_ellipse_synthesis.tex`](./papers/paper9-confocal-ellipse-bridge-synthesis/paper/paper9_confocal_ellipse_synthesis.tex)
+* **Verification Script & Figure Generator**: [`verify_paper9_confocal_ellipse_synthesis.py`](./papers/paper9-confocal-ellipse-bridge-synthesis/scripts/verify_paper9_confocal_ellipse_synthesis.py)
+* **AI Agent Skill & Manifest**: [`SKILL.md`](./papers/paper9-confocal-ellipse-bridge-synthesis/.agents/skills/confocal-ellipse-bridge-synthesis/SKILL.md) &middot; [`AGENT_SKILL_MANIFEST.json`](./papers/paper9-confocal-ellipse-bridge-synthesis/AGENT_SKILL_MANIFEST.json)
 
 ## Technical Stack & Formalization
 
