@@ -1,0 +1,36 @@
+{
+  "title": "The Sieved Mirror Kernel Phi_X(u), the Zero-Free Exponential Prime-Gauge Factor E_X(z), and Quadratic Prime-Power Purity on (X, X^2] for Riemann's Xi-Function",
+  "description": "Paper VI of the series on the Transverse Wronskian of Riemann's Xi-Function. Establishes the holomorphic sieved mirror kernel Phi_X(u) in |Im(u)| < pi/8, the 3x3 Schur-complement optimal mollifier filter P_opt(x), the entire zero-free exponential prime-gauge factor E_X(z) with bijective zero preservation and quadratic prime-power purity on (X, X^2], the exact negative hyperbolic mirror weight w_n*(d_0) = -(n^{2d_0}-1)^{-1} without waterbed tail, power-law L^2 diagonal damping X^{-2d}/(2d ln X) with universal Sub-Selberg closure theta_E^{sq}(d,t) < 1/2 across the critical strip, the exact finite-divisor identity on [1, N(t)] with composite-gap Gaussian tail suppression, and the shifted self-mirrored prime-gauge factor E_{X,kappa}(z) with exact outer factorization.",
+  "upload_type": "publication",
+  "publication_type": "preprint",
+  "creators": [
+    {
+      "name": "Missiaen, Thijs",
+      "affiliation": "Independent Researcher, Belgium",
+      "orcid": "0009-0007-3678-0810"
+    }
+  ],
+  "related_identifiers": [
+    {
+      "identifier": "https://github.com/thijsmissiaen/paper6-sieved-mirror-prime-gauge",
+      "relation": "isSupplementTo",
+      "scheme": "url"
+    }
+  ],
+  "access_right": "open",
+  "license": "MIT",
+  "keywords": [
+    "Riemann Xi-function",
+    "Transverse Wronskian",
+    "Sieved mirror kernel",
+    "Exponential prime-gauge factor",
+    "Quadratic prime-power purity",
+    "Selberg-Conrey mollifier",
+    "Hyperbolic mirror weight",
+    "Sub-Selberg sieve closure",
+    "MSC 11M06",
+    "MSC 11N36",
+    "MSC 30D15"
+  ],
+  "version": "1.0.0"
+}

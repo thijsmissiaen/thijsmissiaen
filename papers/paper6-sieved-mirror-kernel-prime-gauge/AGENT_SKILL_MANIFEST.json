@@ -1,0 +1,36 @@
+{
+  "schema_version": "1.0.0",
+  "name": "sieved-mirror-prime-gauge",
+  "title": "The Sieved Mirror Kernel Phi_X(u), the Zero-Free Exponential Prime-Gauge Factor E_X(z), and Quadratic Prime-Power Purity on (X, X^2] for Riemann's Xi-Function",
+  "version": "1.0.0",
+  "author": {
+    "name": "Thijs Missiaen",
+    "affiliation": "Independent Researcher, Belgium",
+    "email": "thijs.missiaen@gmail.com",
+    "orcid": "0009-0007-3678-0810"
+  },
+  "repository": "https://github.com/thijsmissiaen/paper6-sieved-mirror-prime-gauge",
+  "license": "MIT",
+  "msc_2020": ["11M06", "11N36", "30D15", "41A60"],
+  "entrypoints": {
+    "skill": ".agents/skills/sieved-mirror-prime-gauge/SKILL.md",
+    "manuscript_tex": "paper/paper6_sieved_mirror_prime_gauge.tex",
+    "manuscript_pdf": "paper/paper6_sieved_mirror_prime_gauge.pdf",
+    "verification_script": "scripts/verify_paper6_sieved_mirror_prime_gauge.py",
+    "figures": [
+      "figures/fig1_sieved_mirror_kernel_and_purity.png",
+      "figures/fig2_power_law_damping_and_shifted_gauge.png"
+    ]
+  },
+  "core_theorems": [
+    "Theorem 1.1: Sieved Mirror Kernel, Zero-Free Exponential Prime-Gauge Factor, Quadratic Prime-Power Purity, and Shifted Outer Factorization",
+    "Theorem 2.2: Sieved Mirror Kernel Phi_X(u), Holomorphic Strip Preservation |Im(u)| < pi/8, and Mother-Wavelet Shell Annihilation",
+    "Proposition 2.3: Quadratic Cross-Term Form E_quad(a) = a^T Q a and 3x3 Schur-Complement Filter P_opt(x)",
+    "Theorem 3.1: Number-Theoretic Characterization of b_N^E(X) and Quadratic Prime-Power Purity Window on (X, (floor(X)+1)^2)",
+    "Theorem 3.2: Exact Negative Hyperbolic Mirror Weight w_n*(d_0) = -(n^{2d_0}-1)^{-1} Without Waterbed Tail",
+    "Theorem 4.1: Power-Law L^2 Damping X^{-2d}/(2d ln X) on (X, X^2] and Universal Sub-Selberg Closure theta_E^{sq}(d,t) < 1/2",
+    "Theorem 5.1: Exact Finite-Divisor Identity on [1, N(t)] and Composite-Gap Gaussian Saddle-Point Tail Barrier",
+    "Theorem 5.2: Shifted Self-Mirrored Gauge E_{X,kappa}(z), Exact Outer Factorization, and cosh^{-2}(dL/4) Integrated Remainder Damping"
+  ],
+  "verification_command": "python scripts/verify_paper6_sieved_mirror_prime_gauge.py"
+}

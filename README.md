@@ -79,6 +79,17 @@ We prove that every shell $\phi_m(u) = m^{-1/2}\varphi_1(u + \frac{1}{2}\ln m)$ 
 * **Verification Script & Figure Generator**: [`verify_paper5_mother_wavelet_gabcke_bounds.py`](./papers/paper5-mother-wavelet-gabcke-bounds/scripts/verify_paper5_mother_wavelet_gabcke_bounds.py)
 * **AI Agent Skill & Manifest**: [`SKILL.md`](./papers/paper5-mother-wavelet-gabcke-bounds/.agents/skills/mother-wavelet-gabcke-bounds/SKILL.md) &middot; [`AGENT_SKILL_MANIFEST.json`](./papers/paper5-mother-wavelet-gabcke-bounds/AGENT_SKILL_MANIFEST.json)
 
+### Paper 6: The Sieved Mirror Kernel $\Phi_X(u)$, the Zero-Free Exponential Prime-Gauge Factor $\mathcal{E} _ X(z)$, and Quadratic Prime-Power Purity on $(X, X^2]$ for Riemann's $\Xi$-Function
+
+We couple the universal mother-wavelet decomposition $\Phi(u) = \sum _ {m=1}^\infty m^{-1/2}\varphi_1(u + \frac{1}{2}\ln m)$ with finite-divisor Euler-product sieving for the transverse Wronskian $W(d,t) = \frac{1}{2}\partial_d\lvert\Xi(t-\mathrm{i}d)\rvert^2$. We prove that multiplying $\Xi(z)$ by a self-mirrored Dirichlet polynomial $\mathcal{M} _ X(z) = M_X(\frac{1}{2}+\mathrm{i}z)M_X(\frac{1}{2}-\mathrm{i}z)$ corresponds in the $u$-domain to an even convolution kernel $\Phi _ X(u)$ preserving the holomorphic strip $\lvert\mathrm{Im}(u)\rvert < \frac{\pi}{8}$, while replacing $M_X(s)$ by the entire, zero-free exponential prime-gauge factor $E_X(s) = \exp(-\sum _ {n=2}^{\lfloor X\rfloor}\frac{\Lambda(n)}{\ln n}n^{-s})$ eliminates all parasitic mollifier zeros and establishes exact quadratic prime-power purity $b_N^{\mathcal{E}}(X) \equiv \frac{\Lambda(N)}{\ln N}$ across $\lfloor X\rfloor < N < (\lfloor X\rfloor + 1)^2$ with 0% overshoot ($0 \le b_N^{\mathcal{E}}(X) \le 1$). Furthermore, we derive the negative hyperbolic mirror weight $w_n^{\ast}(d_0) = -(n^{2d_0}-1)^{-1}$ that annihilates prime-power oscillations on $d = d_0$ with zero waterbed tail for $n > X$, prove power-law $L^2$ diagonal damping $\frac{X^{-2d}}{2d\ln X}$ and universal Sub-Selberg closure $\theta _ {\mathcal{E}}^{\mathrm{sq}}(d,t) < \frac{1}{2}$ across the critical strip, and establish the finite-divisor truncation identity on $[1, N(t)]$ alongside the shifted outer factorization of $\mathcal{E} _ {X,\kappa}(z)$.
+
+* **Dedicated Repository**: [`thijsmissiaen/paper6-sieved-mirror-prime-gauge`](https://github.com/thijsmissiaen/paper6-sieved-mirror-prime-gauge)
+* **Package Directory**: [`papers/paper6-sieved-mirror-kernel-prime-gauge/`](./papers/paper6-sieved-mirror-kernel-prime-gauge/)
+* **Academic PDF Manuscript (17 pages)**: [`paper6_sieved_mirror_prime_gauge.pdf`](./papers/paper6-sieved-mirror-kernel-prime-gauge/paper/paper6_sieved_mirror_prime_gauge.pdf)
+* **AMS-LaTeX Source**: [`paper6_sieved_mirror_prime_gauge.tex`](./papers/paper6-sieved-mirror-kernel-prime-gauge/paper/paper6_sieved_mirror_prime_gauge.tex)
+* **Verification Script & Figure Generator**: [`verify_paper6_sieved_mirror_prime_gauge.py`](./papers/paper6-sieved-mirror-kernel-prime-gauge/scripts/verify_paper6_sieved_mirror_prime_gauge.py)
+* **AI Agent Skill & Manifest**: [`SKILL.md`](./papers/paper6-sieved-mirror-kernel-prime-gauge/.agents/skills/sieved-mirror-prime-gauge/SKILL.md) &middot; [`AGENT_SKILL_MANIFEST.json`](./papers/paper6-sieved-mirror-kernel-prime-gauge/AGENT_SKILL_MANIFEST.json)
+
 ## Technical Stack & Formalization
 
 * **Analysis & Computation**: Python (`mpmath`, `numpy`, `scipy`, `sympy`), PyTorch / CUDA for interval Lipschitz certifications.
