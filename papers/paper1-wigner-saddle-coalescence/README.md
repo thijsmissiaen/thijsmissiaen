@@ -17,15 +17,15 @@ We prove that the inner correlation integral $I(y,t)$ governing the transverse W
 ### Main Analytical Results (Theorem 1.1 & Theorem 4.2)
 
 1. **Wigner–Hudson Phase-Space Representation and Zero-Marginal Identity:**  
-   In mirror coordinates $x = u + v$ and $y = u - v$, the transverse Wronskian and its even parity-reduced counterpart $\widetilde{W}(d,t) = W(d,t)/d$ take the exact form
+   In mirror coordinates $x = u + v$ and $y = u - v$ (with longitudinal frequency $\omega = 2t$), the transverse Wronskian and its even parity-reduced counterpart $\widetilde{W}(d,t) = W(d,t)/d$ take the exact form
 
-   $$W(d,t) = \frac{1}{2}\int_0^\infty y\sinh(d y)\,I(y,t)\,\mathrm{d}y, \qquad \widetilde{W}(d,t) = \frac{1}{2}\int_0^\infty y^2\,\frac{\sinh(d y)}{d y}\,I(y,t)\,\mathrm{d}y,$$
+   $$W(d,t) = 8\int_0^\infty y\sinh(2d y)\,I(y,2t)\,\mathrm{d}y, \qquad \widetilde{W}(d,t) = 16\int_0^\infty y^2\,\frac{\sinh(2d y)}{2d y}\,I(y,2t)\,\mathrm{d}y,$$
 
    where the inner correlation integral is given by
 
-   $$I(y,t) = \int_{-\infty}^\infty \Phi\left(\frac{x+y}{2}\right)\Phi\left(\frac{x-y}{2}\right)\cos(t x)\,\mathrm{d}x = 2\pi\,\mathcal{W}_\Phi(y, 2t).$$
+   $$I(y,\omega) = \int_{-\infty}^\infty \Phi\left(\frac{x+y}{2}\right)\Phi\left(\frac{x-y}{2}\right)\cos(\omega x)\,\mathrm{d}x = 2\pi\,\mathcal{W}_\Phi(y, 2\omega).$$
 
-   At every real zero $\gamma_k$ of $\Xi$, the marginal integral vanishes identically ($\int_{-\infty}^\infty I(y,\gamma_k)\,\mathrm{d}y = 2\lvert\Xi(\gamma_k)\rvert^2 = 0$), and Hudson's theorem (1974) implies that $I(y,t)$ must change sign in the $(y,t)$-plane because $\Phi(u)$ is non-Gaussian.
+   At every real zero $\gamma_k$ of $\Xi$ ($\omega_k = 2\gamma_k$), the marginal integral vanishes identically ($\int_{-\infty}^\infty I(y,2\gamma_k)\,\mathrm{d}y = \frac{1}{8}\lvert\Xi(\gamma_k)\rvert^2 = 0$), and Hudson's theorem (1974) implies that $I(y,\omega)$ must change sign in the $(y,\omega)$-plane because $\Phi(u)$ is non-Gaussian.
 
 2. **Holomorphic Strip $\lvert\mathrm{Im}(x)\rvert < \pi/4$, Vertical Wall Decay, and Hermitian Symmetry:**  
    Using the Jacobi differential identity $\Phi(u) = \frac{1}{16}(\partial_u^2 - 1)[\mathrm{e}^u\theta(\mathrm{e}^{4u})]$ and the modular transformation $\theta(\mathrm{e}^{-4u}) = \mathrm{e}^{2u}\theta(\mathrm{e}^{4u})$, we prove $\Phi(-u) = \Phi(u)$ holomorphically inside $\lvert\mathrm{Im}(u)\rvert < \pi/8$ without non-holomorphic absolute values. On the vertical Cauchy walls $\xi = \pm L$, the convolution kernel $G_y(x) = \Phi(\frac{x+y}{2})\Phi(\frac{x-y}{2})$ decays double-exponentially as $\mathcal{O}(\mathrm{e}^{9L}\exp(-2\pi\cosh(2y)\mathrm{e}^{2L}\cos(2\eta)))$ for all $\lvert\eta\rvert < \pi/4$, whereas $\lvert\eta\rvert = \pi/4$ is a natural boundary where $\cos(2\eta) = 0$. Along any horizontal contour $x = \xi + \mathrm{i}\eta$, $G_y$ satisfies the exact Hermitian reflection symmetry
